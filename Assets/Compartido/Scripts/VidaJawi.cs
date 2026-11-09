@@ -1,23 +1,32 @@
 using System.Collections;
 using UnityEngine;
 
-// Va en Jawi. Cuando recibe daño: pierde un corazón, vuelve al último
-// punto seguro y queda 1 segundo invulnerable (parpadeando).
+// Va en Jawi. Cuando recibe daño: pierde un corazón y queda 1 segundo
+// invulnerable (parpadeando), en el mismo lugar donde estaba.
+// Solo vuelve al último punto seguro si el peligro lo pide (agua, abismos).
+// Cuando pierde todos los corazones, el GameManager reinicia el juego.
+// Mientras parpadea, no puede moverse ni atacar ni cantar.
 [RequireComponent(typeof(Rigidbody2D))]
 public class VidaJawi : MonoBehaviour
 {
     public float tiempoInvulnerable = 1f;
+    [Tooltip("Si está marcado, Jawi no se puede mover mientras parpadea")]
+    public bool quietoMientrasParpadea = false;
 
     public bool EsInvulnerable { get; private set; }
 
     Vector3 puntoSeguro;
     Rigidbody2D rb;
     SpriteRenderer sprite;
+    MovimientoJawi movimiento;
+    AccionesJawi acciones;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        movimiento = GetComponent<MovimientoJawi>();
+        acciones = GetComponent<AccionesJawi>();
         puntoSeguro = transform.position; // al empezar, el punto seguro es donde aparece
     }
 
@@ -26,7 +35,9 @@ public class VidaJawi : MonoBehaviour
         puntoSeguro = posicion;
     }
 
-    public void RecibirDano()
+    public void RecibirDano() { RecibirDano(false); }
+
+    public void RecibirDano(bool volverAlPuntoSeguro)
     {
         if (EsInvulnerable) return;
 
@@ -40,10 +51,13 @@ public class VidaJawi : MonoBehaviour
 
         gm.PerderVida();
 
-        // Volver al último punto seguro
-        rb.linearVelocity = Vector2.zero;
-        rb.position = puntoSeguro;
-        transform.position = puntoSeguro;
+        // Solo vuelve al último punto seguro si el peligro lo pide (agua, abismos)
+        if (volverAlPuntoSeguro)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.position = puntoSeguro;
+            transform.position = puntoSeguro;
+        }
 
         StartCoroutine(Invulnerable());
     }
@@ -51,6 +65,8 @@ public class VidaJawi : MonoBehaviour
     IEnumerator Invulnerable()
     {
         EsInvulnerable = true;
+        PuedeControlarse(false);
+
         float tiempo = 0f;
         while (tiempo < tiempoInvulnerable)
         {
@@ -60,5 +76,16 @@ public class VidaJawi : MonoBehaviour
         }
         if (sprite != null) sprite.enabled = true;
         EsInvulnerable = false;
+        PuedeControlarse(true);
+    }
+
+    void PuedeControlarse(bool si)
+    {
+        if (!quietoMientrasParpadea && !si) return;
+
+        if (!si) rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        if (movimiento != null) movimiento.enabled = si;
+        if (acciones != null) acciones.enabled = si;
     }
 }
+

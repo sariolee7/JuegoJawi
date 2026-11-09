@@ -6,8 +6,8 @@ using UnityEngine;
 public class TorretaDisparo : MonoBehaviour
 {
     [Header("Bala")]
-    [Tooltip("Arrastra aquí el prefab de la bala (el que tiene el script Bala)")]
-    public Bala prefabBala;
+    [Tooltip("Arrastra aquí el prefab de la bala")]
+    public GameObject prefabBala;
     [Tooltip("Objeto hijo vacío puesto en la punta del cañón. Si lo dejas vacío, la bala sale del centro")]
     public Transform puntaCanon;
 
@@ -15,7 +15,7 @@ public class TorretaDisparo : MonoBehaviour
     [Tooltip("Distancia a la que el vehículo empieza a disparar a Jawi")]
     public float rango = 6f;
     public float tiempoEntreDisparos = 1.5f;
-    public float velocidadBala = 7f;
+    public float velocidadBala = 3f;
 
     [Header("Sonido (opcional)")]
     public AudioClip sonidoDisparo;
@@ -60,14 +60,11 @@ public class TorretaDisparo : MonoBehaviour
         }
 
         Vector2 direccion = (objetivo - (Vector2)salida).normalized;
-        Bala bala = Instantiate(prefabBala, salida, Quaternion.identity);
+        GameObject objBala = Instantiate(prefabBala, salida, Quaternion.identity);
+        Bala bala = objBala.GetComponent<Bala>();
+        if (bala == null) bala = objBala.AddComponent<Bala>(); // por si al prefab le falta el script
 
-        // La bala no choca con el propio vehículo
-        Collider2D colBala = bala.GetComponent<Collider2D>();
-        if (colBala != null)
-            foreach (Collider2D c in misColliders) if (c != null) Physics2D.IgnoreCollision(colBala, c);
-
-        bala.Disparar(direccion, velocidadBala);
+        bala.Disparar(direccion, velocidadBala, transform);
         if (sonidoDisparo != null) AudioSource.PlayClipAtPoint(sonidoDisparo, salida);
     }
 

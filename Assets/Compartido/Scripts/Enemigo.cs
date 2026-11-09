@@ -19,6 +19,8 @@ public class Enemigo : MonoBehaviour, IGolpeable
     public float velocidad = 1.5f;
     [Tooltip("Marca si el dibujo mira a la izquierda en vez de a la derecha")]
     public bool dibujoMiraIzquierda = false;
+    [Tooltip("Desmárcalo para que el dibujo NO se voltee al cambiar de dirección (por ejemplo el jeep: avanza y retrocede sin girar)")]
+    public bool voltearAlCaminar = true;
 
     [Header("Al recibir zarpazo")]
     public float empujon = 0.4f;
@@ -65,7 +67,7 @@ public class Enemigo : MonoBehaviour, IGolpeable
         if (p.x < inicioX - distanciaPatrulla) { p.x = inicioX - distanciaPatrulla; direccion = 1f; }
         rb.MovePosition(p);
 
-        if (sprite != null) sprite.flipX = dibujoMiraIzquierda ? direccion > 0f : direccion < 0f;
+        if (sprite != null && voltearAlCaminar) sprite.flipX = dibujoMiraIzquierda ? direccion > 0f : direccion < 0f;
     }
 
     // Si Jawi está justo enfrente, el enemigo se detiene (no lo empuja por todo el nivel).
@@ -149,3 +151,4 @@ public class Enemigo : MonoBehaviour, IGolpeable
         Gizmos.DrawWireSphere(b, 0.1f);
     }
 }
+

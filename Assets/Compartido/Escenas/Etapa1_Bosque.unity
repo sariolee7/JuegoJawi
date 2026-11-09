@@ -2513,6 +2513,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324124018}
   m_CullTransparentMesh: 1
+--- !u!1 &1361397954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4760437136225498526, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
+  m_PrefabInstance: {fileID: 4494935099356680634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1361397958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361397954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86326fbc07486046b386b85dfd1d764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemigo
+  zarpazosParaVencer: 2
+  distanciaPatrulla: 2
+  velocidad: 1.5
+  dibujoMiraIzquierda: 1
+  voltearAlCaminar: 0
+  empujon: 0.4
+  tiempoAturdido: 0.4
+  sonidoGolpe: {fileID: 0}
+  sonidoVencido: {fileID: 0}
+  alVencer:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!50 &1361397959
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361397954}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1361397960
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361397954}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.94, y: 2.11}
+    newSize: {x: 3.94, y: 2.11}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.94, y: 2.11}
+  m_EdgeRadius: 0
 --- !u!1001 &1392760086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2838,15 +2940,28 @@ PrefabInstance:
     - target: {fileID: 8760717077049778957, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
       propertyPath: prefabBala
       value: 
-      objectReference: {fileID: 3305293250200458583, guid: 8ef8865746c8e6244bc3fa8ea5c12c93, type: 3}
+      objectReference: {fileID: 1674475017787784230, guid: 8ef8865746c8e6244bc3fa8ea5c12c93, type: 3}
     - target: {fileID: 8760717077049778957, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
       propertyPath: puntaCanon
       value: 
       objectReference: {fileID: 274048270}
+    - target: {fileID: 8760717077049778957, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
+      propertyPath: velocidadBala
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4760437136225498526, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1361397959}
+    - targetCorrespondingSourceObject: {fileID: 4760437136225498526, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1361397960}
+    - targetCorrespondingSourceObject: {fileID: 4760437136225498526, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1361397958}
   m_SourcePrefab: {fileID: 100100000, guid: 678b80fa63b4955488f9fd670676bb72, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
