@@ -150,12 +150,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IntroHistoria
   imagenes:
-  - {fileID: 5551810173411094980, guid: 33fe2dcb886d70a438c1f76eba92bf7b, type: 3}
-  - {fileID: -4595113014094427811, guid: 45253ed0dd31e74408301a2793f35228, type: 3}
-  - {fileID: -6080018314438753889, guid: 210822a60b1fff449bdf11348e2363aa, type: 3}
-  - {fileID: 1836234460538781926, guid: b7cd123307d44554fad7f783ad77b8e7, type: 3}
-  - {fileID: -437837246368018084, guid: 96f1c6a77d8d6584bb347f29cb4d111b, type: 3}
+  - {fileID: 2584629788693956608, guid: 9dcae3184f87b074488fcf865553a891, type: 3}
+  - {fileID: 1217219040789071883, guid: f242c364252ebb1489f3c82f18bac164, type: 3}
+  - {fileID: 766529081740607966, guid: 28a338e9a9116a14f8e7b5995bb6d094, type: 3}
+  - {fileID: 6823965914797114103, guid: 7d201e3cd1b723d4b8880233e7793088, type: 3}
+  - {fileID: -1805579877629148779, guid: c3274edbc194f904ba6f1c04e06cefcb, type: 3}
+  - {fileID: 5588239319336031646, guid: e87499c8e07a19a4b8f66d71b096c393, type: 3}
+  - {fileID: 1940487436945172551, guid: 05733f2477f720044af30b234f6a5ca0, type: 3}
+  - {fileID: -5114621542893238836, guid: 7ca51cd332bb82343b79328f40d6401c, type: 3}
+  - {fileID: -6371337225988888246, guid: dd841b7748b298e4f896fafa83101402, type: 3}
+  - {fileID: 2361390259495161727, guid: 1009080b57ea78a42a678d53956ac963, type: 3}
+  textosHistoria:
+  - "En el coraz\xF3n de la selva existe una laguna sagrada, cuidada por dos guardianes:
+    una madre jaguar y su peque\xF1o cachorro."
+  - "Son el esp\xEDritu de dos tunjos de oro que descansan bajo la cascada. Mientras
+    permanezcan juntos, la laguna vivir\xE1."
+  - La Madre Jaguar es la ninfa de las aguas. Su luz mantiene la laguna clara y llena
+    de vida.
+  - "El peque\xF1o es el coraz\xF3n de la selva. A su paso, las flores se abren y
+    los \xE1rboles crecen."
+  - "Pero entre los hombres corr\xEDa una leyenda: en la Laguna del Jaguar, el oro
+    era abundante y m\xE1gico."
+  - Movidos por la avaricia, cruzaron la selva, destruyendo todo a su paso.
+  - Al llegar al lugar sagrado, encontraron el tunjo del cachorro. Sin importarles
+    su valor, se lo llevaron junto con todo el oro de la laguna.
+  - "La Madre Jaguar despert\xF3 y vio c\xF3mo todo se apagaba: las aguas se oscurec\xEDan,
+    las flores se marchitaban y los \xE1rboles perd\xEDan su color."
+  - "Lejos de su hogar, el cachorro se debilita. Si no regresa pronto, morir\xE1,
+    y con \xE9l toda la vida de la laguna."
+  - "Con el \xFAltimo brillo del agua en sus marcas, la Madre Jaguar emprende su
+    camino. Debe recuperar el tunjo, salvar a su peque\xF1o y devolverle la vida
+    a la laguna."
   siguienteEscena: Etapa1_Bosque
+  spriteSiguiente: {fileID: 21300000, guid: bc6a4c85c8137c04fbda7a0925a96845, type: 3}
+  spriteOmitir: {fileID: 21300000, guid: 4f941b54e117b57418b85fed5349e6c2, type: 3}
+  altoAyuda: 70
+  letrasPorSegundo: 40
   duracionFundido: 1.24
 --- !u!4 &844711231
 Transform:
