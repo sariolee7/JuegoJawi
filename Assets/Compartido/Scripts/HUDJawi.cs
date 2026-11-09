@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// Muestra los corazones arriba a la izquierda, los fragmentos de oro
-// arriba a la derecha y la pantalla de Game Over.
+// Muestra los corazones y el contador de tunjos arriba a la izquierda,
+// y la pantalla de Game Over.
 // Crea todo solo al darle Play: no hay que armar la interfaz a mano.
 // Necesita que en la escena exista el GameManager.
 public class HUDJawi : MonoBehaviour
@@ -10,22 +10,38 @@ public class HUDJawi : MonoBehaviour
     [Header("Corazones")]
     [Tooltip("Opcional: arrastra aquí un dibujo de corazón. Si está vacío, se ven cuadrados")]
     public Sprite spriteCorazon;
-    public Color colorLleno = new Color(0.9f, 0.1f, 0.2f);
+    [Tooltip("Blanco = el corazón se ve con sus colores originales")]
+    public Color colorLleno = Color.white;
     public Color colorVacio = new Color(0.25f, 0.25f, 0.25f, 0.6f);
     public float tamanoCorazon = 60f;
+    [Tooltip("Espacio entre corazones")]
+    public float espacioCorazones = 8f;
+    [Tooltip("Dónde van los corazones, medido desde la esquina de arriba a la izquierda (X a la derecha, Y negativo hacia abajo). Se puede cambiar en Play y se ve al instante")]
+    public Vector2 posicionCorazones = new Vector2(30f, -30f);
 
-    [Header("Fragmentos de oro")]
-    [Tooltip("Opcional: arrastra aquí un dibujo del fragmento. Si está vacío, se ven rombos")]
-    public Sprite spriteFragmento;
-    public Color colorFragmentoTenido = new Color(1f, 0.8f, 0.15f);
-    public Color colorFragmentoFalta = new Color(0.25f, 0.25f, 0.25f, 0.6f);
-    public float tamanoFragmento = 55f;
+    [Header("Tunjos")]
+    [Tooltip("Opcional: dibujo del tunjo que sale junto al contador")]
+    public Sprite spriteTunjo;
+    public float tamanoTunjo = 50f;
+    [Tooltip("Si está marcado, el dibujo del tunjo se va llenando de abajo hacia arriba a medida que Jawi los recoge (como la barra de energía)")]
+    public bool tunjoSeLlena = true;
+    [Tooltip("Marcado: el dibujo del tunjo se llena cantándole a las flores (energía de Jawi). Desmarcado: se llena recogiendo tunjos")]
+    public bool llenarConCanto = true;
+    [Tooltip("Cuántos tunjos hacen falta para que el dibujo quede lleno (solo si Llenar Con Canto está desmarcado)")]
+    public int tunjosParaLlenar = 3;
 
     [Header("Game Over")]
     public string textoGameOver = "GAME OVER\n\nPresiona Espacio o W para reiniciar";
 
     Image[] corazones;
-    Image[] fragmentos;
+    RectTransform filaCorazones;
+    HorizontalLayoutGroup layoutCorazones;
+    RectTransform iconoTunjoRT;
+    RectTransform fondoTunjoRT;
+    Image imagenTunjo;
+    EnergiaJawi energia;
+    RectTransform textoTunjosRT;
+    Text textoTunjos;
     GameObject panelGameOver;
     ControlesJawi controles;
 
@@ -40,17 +56,18 @@ public class HUDJawi : MonoBehaviour
 
         Transform canvas = CrearCanvas();
         CrearCorazones(canvas, gm.vidasMaximas);
-        CrearFragmentos(canvas, gm.fragmentosTotales);
+        CrearTunjos(canvas);
         CrearPanelGameOver(canvas);
 
         controles = FindFirstObjectByType<ControlesJawi>();
+        energia = FindFirstObjectByType<EnergiaJawi>();
 
         gm.AlCambiarVidas += ActualizarCorazones;
         gm.AlGameOver += MostrarGameOver;
-        gm.AlCambiarFragmentos += ActualizarFragmentos;
+        gm.AlCambiarTunjos += ActualizarTunjos;
 
         ActualizarCorazones(gm.Vidas);
-        ActualizarFragmentos(gm.Fragmentos);
+        ActualizarTunjos(gm.Tunjos);
         panelGameOver.SetActive(gm.EsGameOver);
     }
 
@@ -61,12 +78,24 @@ public class HUDJawi : MonoBehaviour
         {
             gm.AlCambiarVidas -= ActualizarCorazones;
             gm.AlGameOver -= MostrarGameOver;
-            gm.AlCambiarFragmentos -= ActualizarFragmentos;
+            gm.AlCambiarTunjos -= ActualizarTunjos;
         }
     }
 
     void Update()
     {
+        AcomodarHUD();
+
+        // El dibujo del tunjo se llena con el canto a las flores
+        if (llenarConCanto && tunjoSeLlena && imagenTunjo != null && energia != null)
+        {
+            imagenTunjo.fillAmount = Mathf.MoveTowards(imagenTunjo.fillAmount, energia.Energia, 1.5f * Time.deltaTime);
+        }
+
+        // Con el canto, el número cuenta las flores a las que Jawi les cantó
+        if (llenarConCanto && energia != null && textoTunjos != null)
+            textoTunjos.text = "x " + energia.FloresCantadas;
+
         // En Game Over: Espacio / W (o B / A en gamepad) reinicia
         if (panelGameOver != null && panelGameOver.activeSelf && controles != null)
         {
@@ -78,6 +107,32 @@ public class HUDJawi : MonoBehaviour
         }
     }
 
+    // Pone los corazones y el contador de tunjos según los valores del Inspector
+    void AcomodarHUD()
+    {
+        if (filaCorazones == null) return;
+        int cantidad = corazones.Length;
+        filaCorazones.anchoredPosition = posicionCorazones;
+        filaCorazones.sizeDelta = new Vector2(cantidad * (tamanoCorazon + espacioCorazones), tamanoCorazon);
+        layoutCorazones.spacing = espacioCorazones;
+        foreach (Image c in corazones)
+            c.rectTransform.sizeDelta = new Vector2(tamanoCorazon, tamanoCorazon);
+
+        float y = posicionCorazones.y - tamanoCorazon - 15f;
+        if (iconoTunjoRT != null)
+        {
+            iconoTunjoRT.anchoredPosition = new Vector2(posicionCorazones.x, y);
+            iconoTunjoRT.sizeDelta = new Vector2(tamanoTunjo, tamanoTunjo);
+        }
+        if (fondoTunjoRT != null)
+        {
+            fondoTunjoRT.anchoredPosition = new Vector2(posicionCorazones.x, y);
+            fondoTunjoRT.sizeDelta = new Vector2(tamanoTunjo, tamanoTunjo);
+        }
+        if (textoTunjosRT != null)
+            textoTunjosRT.anchoredPosition = new Vector2(posicionCorazones.x + tamanoTunjo + 12f, y);
+    }
+
     void ActualizarCorazones(int vidas)
     {
         if (corazones == null) return;
@@ -87,13 +142,11 @@ public class HUDJawi : MonoBehaviour
         }
     }
 
-    void ActualizarFragmentos(int cantidad)
+    void ActualizarTunjos(int cantidad)
     {
-        if (fragmentos == null) return;
-        for (int i = 0; i < fragmentos.Length; i++)
-        {
-            fragmentos[i].color = i < cantidad ? colorFragmentoTenido : colorFragmentoFalta;
-        }
+        if (textoTunjos != null && !(llenarConCanto && energia != null)) textoTunjos.text = "x " + cantidad;
+        if (imagenTunjo != null && tunjoSeLlena && !llenarConCanto)
+            imagenTunjo.fillAmount = Mathf.Clamp01((float)cantidad / Mathf.Max(1, tunjosParaLlenar));
     }
 
     void MostrarGameOver()
@@ -130,11 +183,10 @@ public class HUDJawi : MonoBehaviour
         rt.anchorMin = new Vector2(0f, 1f);
         rt.anchorMax = new Vector2(0f, 1f);
         rt.pivot = new Vector2(0f, 1f);
-        rt.anchoredPosition = new Vector2(30f, -30f);
-        rt.sizeDelta = new Vector2(cantidad * (tamanoCorazon + 12f), tamanoCorazon);
+        filaCorazones = rt;
 
         HorizontalLayoutGroup layout = fila.GetComponent<HorizontalLayoutGroup>();
-        layout.spacing = 12f;
+        layoutCorazones = layout;
         layout.childControlWidth = false;
         layout.childControlHeight = false;
         layout.childForceExpandWidth = false;
@@ -152,46 +204,59 @@ public class HUDJawi : MonoBehaviour
             img.preserveAspect = true;
             corazones[i] = img;
         }
+        AcomodarHUD();
     }
 
-    void CrearFragmentos(Transform canvas, int cantidad)
+    // Contador de tunjos debajo de los corazones: [dibujo] x 3
+    void CrearTunjos(Transform canvas)
     {
-        GameObject fila = new GameObject("Fragmentos", typeof(RectTransform), typeof(HorizontalLayoutGroup));
-        fila.transform.SetParent(canvas, false);
+        float y = posicionCorazones.y - tamanoCorazon - 15f;
 
-        RectTransform rt = fila.GetComponent<RectTransform>();
-        rt.anchorMin = new Vector2(1f, 1f);
-        rt.anchorMax = new Vector2(1f, 1f);
-        rt.pivot = new Vector2(1f, 1f);
-        rt.anchoredPosition = new Vector2(-30f, -30f);
-        rt.sizeDelta = new Vector2(cantidad * (tamanoFragmento + 16f), tamanoFragmento);
-
-        HorizontalLayoutGroup layout = fila.GetComponent<HorizontalLayoutGroup>();
-        layout.spacing = 16f;
-        layout.childAlignment = TextAnchor.UpperRight;
-        layout.childControlWidth = false;
-        layout.childControlHeight = false;
-        layout.childForceExpandWidth = false;
-        layout.childForceExpandHeight = false;
-
-        fragmentos = new Image[cantidad];
-        for (int i = 0; i < cantidad; i++)
+        // Fondo: el mismo tunjo en gris, para que se vea la parte que falta por llenar
+        if (tunjoSeLlena && spriteTunjo != null)
         {
-            GameObject f = new GameObject("Fragmento" + (i + 1), typeof(RectTransform), typeof(Image));
-            f.transform.SetParent(fila.transform, false);
-            f.GetComponent<RectTransform>().sizeDelta = new Vector2(tamanoFragmento, tamanoFragmento);
-
-            Image img = f.GetComponent<Image>();
-            img.sprite = spriteFragmento;
-            img.preserveAspect = true;
-            // Sin dibujo: un cuadrado girado 45° parece un rombo
-            if (spriteFragmento == null)
-            {
-                f.transform.localRotation = Quaternion.Euler(0f, 0f, 45f);
-                f.transform.localScale = Vector3.one * 0.75f;
-            }
-            fragmentos[i] = img;
+            GameObject fondo = new GameObject("FondoTunjo", typeof(RectTransform), typeof(Image));
+            fondo.transform.SetParent(canvas, false);
+            fondoTunjoRT = fondo.GetComponent<RectTransform>();
+            fondoTunjoRT.anchorMin = fondoTunjoRT.anchorMax = fondoTunjoRT.pivot = new Vector2(0f, 1f);
+            Image imgFondo = fondo.GetComponent<Image>();
+            imgFondo.sprite = spriteTunjo;
+            imgFondo.preserveAspect = true;
+            imgFondo.color = colorVacio;
         }
+
+        GameObject icono = new GameObject("IconoTunjo", typeof(RectTransform), typeof(Image));
+        icono.transform.SetParent(canvas, false);
+        RectTransform ri = icono.GetComponent<RectTransform>();
+        ri.anchorMin = ri.anchorMax = ri.pivot = new Vector2(0f, 1f);
+        ri.anchoredPosition = new Vector2(posicionCorazones.x, y);
+        iconoTunjoRT = ri;
+        ri.sizeDelta = new Vector2(tamanoTunjo, tamanoTunjo);
+        Image img = icono.GetComponent<Image>();
+        img.sprite = spriteTunjo;
+        img.preserveAspect = true;
+        img.color = spriteTunjo != null ? Color.white : new Color(1f, 0.8f, 0.15f);
+        if (tunjoSeLlena && spriteTunjo != null)
+        {
+            img.type = Image.Type.Filled;
+            img.fillMethod = Image.FillMethod.Vertical;
+            img.fillOrigin = (int)Image.OriginVertical.Bottom;
+            img.fillAmount = 0f;
+        }
+        imagenTunjo = img;
+
+        GameObject textoGO = new GameObject("TextoTunjos", typeof(RectTransform), typeof(Text));
+        textoGO.transform.SetParent(canvas, false);
+        RectTransform rt = textoGO.GetComponent<RectTransform>();
+        rt.anchorMin = rt.anchorMax = rt.pivot = new Vector2(0f, 1f);
+        rt.anchoredPosition = new Vector2(posicionCorazones.x + tamanoTunjo + 12f, y);
+        rt.sizeDelta = new Vector2(200f, tamanoTunjo);
+        textoTunjosRT = rt;
+        textoTunjos = textoGO.GetComponent<Text>();
+        textoTunjos.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        textoTunjos.fontSize = 44;
+        textoTunjos.alignment = TextAnchor.MiddleLeft;
+        textoTunjos.color = Color.white;
     }
 
     void CrearPanelGameOver(Transform canvas)
@@ -223,3 +288,4 @@ public class HUDJawi : MonoBehaviour
         rt.offsetMax = Vector2.zero;
     }
 }
+

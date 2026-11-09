@@ -21,15 +21,15 @@ public class EnergiaJawi : MonoBehaviour
     public float Energia { get; private set; }
     public bool EstaLlena => Energia >= 1f;
 
+    // Cuántas flores le ha cantado Jawi en esta etapa (lo muestra el HUD)
+    public int FloresCantadas { get; private set; }
+
     float mostrada; // lo que se ve en la barra, sube suave hasta Energia
 
     void Start()
     {
-        if (barraRelleno == null)
-        {
-            Debug.LogWarning("EnergiaJawi: falta arrastrar la imagen de la barra al campo Barra Relleno.");
-            return;
-        }
+        // La barra es opcional: el HUD ya muestra la energía en el dibujo del tunjo
+        if (barraRelleno == null) return;
         barraRelleno.type = Image.Type.Filled; // por si acaso
         barraRelleno.fillAmount = 0f;          // empieza vacía
     }
@@ -44,6 +44,7 @@ public class EnergiaJawi : MonoBehaviour
     public void GanarEnergia(float cantidad)
     {
         Energia = Mathf.Clamp01(Energia + cantidad);
+        FloresCantadas++;
         Debug.Log("Jawi ganó energía: " + Mathf.RoundToInt(Energia * 100f) + "%");
         if (sonidoEnergia != null) AudioSource.PlayClipAtPoint(sonidoEnergia, transform.position);
     }
@@ -56,5 +57,3 @@ public class EnergiaJawi : MonoBehaviour
         return true;
     }
 }
-
-

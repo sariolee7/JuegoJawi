@@ -15,17 +15,18 @@ public class GameManager : MonoBehaviour
     public int Vidas { get; private set; }
     public bool EsGameOver { get; private set; }
 
-    // Puntaje final: 200 puntos por cada corazón que quede
-    public int PuntajeFinal => Vidas * puntosPorCorazon;
+    [Header("Tunjos")]
+    public int puntosPorTunjo = 50;
+    public int Tunjos { get; private set; }
+    public event Action<int> AlCambiarTunjos;
+
+    // Puntaje final: 200 puntos por cada corazón que quede + 50 por cada tunjo
+    public int PuntajeFinal => Vidas * puntosPorCorazon + Tunjos * puntosPorTunjo;
 
     // Avisos para otros scripts (por ejemplo, los corazones en pantalla)
     public event Action<int> AlCambiarVidas;
     public event Action AlGameOver;
 
-    [Header("Fragmentos de oro")]
-    public int fragmentosTotales = 3;
-    public int Fragmentos { get; private set; }
-    public event Action<int> AlCambiarFragmentos;
 
     [Header("Game Over")]
     [Tooltip("Escena donde empieza el juego (la del Bosque). Si lo dejas vacío, se repite la escena actual (útil para probar).")]
@@ -45,11 +46,11 @@ public class GameManager : MonoBehaviour
         Vidas = vidasMaximas;
     }
 
-    public void RecogerFragmento()
+    public void RecogerTunjo()
     {
-        Fragmentos = Mathf.Min(fragmentosTotales, Fragmentos + 1);
-        Debug.Log("Fragmento de oro: " + Fragmentos + " de " + fragmentosTotales);
-        AlCambiarFragmentos?.Invoke(Fragmentos);
+        Tunjos++;
+        Debug.Log("Tunjo recogido. Total: " + Tunjos);
+        AlCambiarTunjos?.Invoke(Tunjos);
     }
 
     public void PerderVida()
@@ -73,12 +74,13 @@ public class GameManager : MonoBehaviour
     {
         Vidas = vidasMaximas;
         EsGameOver = false;
-        Fragmentos = 0;
+        Tunjos = 0;
         AlCambiarVidas?.Invoke(Vidas);
-        AlCambiarFragmentos?.Invoke(Fragmentos);
+        AlCambiarTunjos?.Invoke(Tunjos);
         string escena = string.IsNullOrEmpty(primeraEscena)
             ? SceneManager.GetActiveScene().name
             : primeraEscena;
         SceneManager.LoadScene(escena);
     }
 }
+
