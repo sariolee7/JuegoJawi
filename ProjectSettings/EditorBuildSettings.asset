@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Compartido/Escenas/HISTORIA.unity
     guid: d0b19afa88645af4ab38d557f15f1bad
   - enabled: 1
-    path: Assets/Compartido/Escenas/porsilas.unity
-    guid: 6775c46db7a7f9249b2160e88eaba5be
+    path: Assets/Compartido/Escenas/Etapa1_Bosque.unity
+    guid: 79e416dc51811d44e8346dbfed068f7b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
