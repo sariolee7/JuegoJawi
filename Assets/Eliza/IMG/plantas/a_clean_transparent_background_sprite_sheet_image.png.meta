@@ -1,0 +1,770 @@
+fileFormatVersion: 2
+guid: 40eff5ef8ba274b4192037fbdddbd0e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4564972203892073846
+    second: a_clean_transparent_background_sprite_sheet_image_0
+  - first:
+      213: 7083125298127556565
+    second: a_clean_transparent_background_sprite_sheet_image_1
+  - first:
+      213: -142198917028705573
+    second: a_clean_transparent_background_sprite_sheet_image_2
+  - first:
+      213: -9005403172225955514
+    second: a_clean_transparent_background_sprite_sheet_image_3
+  - first:
+      213: 5870687656323333200
+    second: a_clean_transparent_background_sprite_sheet_image_4
+  - first:
+      213: 5480385339370883371
+    second: a_clean_transparent_background_sprite_sheet_image_5
+  - first:
+      213: -8093838763791251118
+    second: a_clean_transparent_background_sprite_sheet_image_6
+  - first:
+      213: 2811028339679481911
+    second: a_clean_transparent_background_sprite_sheet_image_7
+  - first:
+      213: -4280542680088123543
+    second: a_clean_transparent_background_sprite_sheet_image_8
+  - first:
+      213: -8557506162991599371
+    second: a_clean_transparent_background_sprite_sheet_image_9
+  - first:
+      213: -8642099234662285222
+    second: a_clean_transparent_background_sprite_sheet_image_10
+  - first:
+      213: -8876626523792336987
+    second: a_clean_transparent_background_sprite_sheet_image_11
+  - first:
+      213: -989785359410185051
+    second: a_clean_transparent_background_sprite_sheet_image_12
+  - first:
+      213: 677263324844862160
+    second: a_clean_transparent_background_sprite_sheet_image_13
+  - first:
+      213: 92452752513726082
+    second: a_clean_transparent_background_sprite_sheet_image_14
+  - first:
+      213: -2877860136626308199
+    second: a_clean_transparent_background_sprite_sheet_image_15
+  - first:
+      213: 5862963671369330385
+    second: a_clean_transparent_background_sprite_sheet_image_16
+  - first:
+      213: -6633924651313135111
+    second: a_clean_transparent_background_sprite_sheet_image_17
+  - first:
+      213: 8393718380836060149
+    second: a_clean_transparent_background_sprite_sheet_image_18
+  - first:
+      213: 7091364611583556788
+    second: a_clean_transparent_background_sprite_sheet_image_19
+  - first:
+      213: 8983444986470472053
+    second: a_clean_transparent_background_sprite_sheet_image_20
+  - first:
+      213: 1068040264459229078
+    second: a_clean_transparent_background_sprite_sheet_image_21
+  - first:
+      213: 4481438997762676250
+    second: a_clean_transparent_background_sprite_sheet_image_22
+  - first:
+      213: -4236070806616071209
+    second: a_clean_transparent_background_sprite_sheet_image_23
+  - first:
+      213: 5151118514587977708
+    second: a_clean_transparent_background_sprite_sheet_image_24
+  - first:
+      213: 3568468190057913612
+    second: a_clean_transparent_background_sprite_sheet_image_25
+  - first:
+      213: -5764174486842567838
+    second: a_clean_transparent_background_sprite_sheet_image_26
+  - first:
+      213: -629993533925829840
+    second: a_clean_transparent_background_sprite_sheet_image_27
+  - first:
+      213: -8071265937429844408
+    second: a_clean_transparent_background_sprite_sheet_image_28
+  - first:
+      213: -1990293949673073278
+    second: a_clean_transparent_background_sprite_sheet_image_29
+  - first:
+      213: 1769695256221074298
+    second: a_clean_transparent_background_sprite_sheet_image_30
+  - first:
+      213: -7625520602037780956
+    second: a_clean_transparent_background_sprite_sheet_image_31
+  - first:
+      213: -9007409658080179066
+    second: a_clean_transparent_background_sprite_sheet_image_32
+  - first:
+      213: -42344444181614587
+    second: a_clean_transparent_background_sprite_sheet_image_33
+  - first:
+      213: 2477199928171833773
+    second: a_clean_transparent_background_sprite_sheet_image_34
+  - first:
+      213: 5092598802539174408
+    second: a_clean_transparent_background_sprite_sheet_image_35
+  - first:
+      213: 3202069268733098685
+    second: a_clean_transparent_background_sprite_sheet_image_36
+  - first:
+      213: -1596291118508069893
+    second: a_clean_transparent_background_sprite_sheet_image_37
+  - first:
+      213: -5965619293045534334
+    second: a_clean_transparent_background_sprite_sheet_image_38
+  - first:
+      213: -1892094564933421252
+    second: a_clean_transparent_background_sprite_sheet_image_39
+  - first:
+      213: 8026080842326210418
+    second: a_clean_transparent_background_sprite_sheet_image_40
+  - first:
+      213: 9038851791264235476
+    second: a_clean_transparent_background_sprite_sheet_image_41
+  - first:
+      213: 2753237393498853627
+    second: a_clean_transparent_background_sprite_sheet_image_42
+  - first:
+      213: 3501938349242424359
+    second: a_clean_transparent_background_sprite_sheet_image_43
+  - first:
+      213: -8215224376426647732
+    second: a_clean_transparent_background_sprite_sheet_image_44
+  - first:
+      213: 1522732174760754358
+    second: a_clean_transparent_background_sprite_sheet_image_45
+  - first:
+      213: 9025765256933209502
+    second: a_clean_transparent_background_sprite_sheet_image_46
+  - first:
+      213: 6571079663037509445
+    second: a_clean_transparent_background_sprite_sheet_image_47
+  - first:
+      213: 7870891306751034465
+    second: a_clean_transparent_background_sprite_sheet_image_48
+  - first:
+      213: -377293112985556400
+    second: a_clean_transparent_background_sprite_sheet_image_49
+  - first:
+      213: -2685971219267309332
+    second: a_clean_transparent_background_sprite_sheet_image_50
+  - first:
+      213: -5514807547392350891
+    second: a_clean_transparent_background_sprite_sheet_image_51
+  - first:
+      213: 5481827651748138361
+    second: a_clean_transparent_background_sprite_sheet_image_52
+  - first:
+      213: 3266801862646987151
+    second: a_clean_transparent_background_sprite_sheet_image_53
+  - first:
+      213: -2745812861293762748
+    second: a_clean_transparent_background_sprite_sheet_image_54
+  - first:
+      213: 3000409946767362278
+    second: a_clean_transparent_background_sprite_sheet_image_55
+  - first:
+      213: 2377794475074149966
+    second: a_clean_transparent_background_sprite_sheet_image_56
+  - first:
+      213: 4569780871745657121
+    second: a_clean_transparent_background_sprite_sheet_image_57
+  - first:
+      213: -5603355904800421420
+    second: a_clean_transparent_background_sprite_sheet_image_58
+  - first:
+      213: 4933094212452177433
+    second: a_clean_transparent_background_sprite_sheet_image_59
+  - first:
+      213: 4019147920589372379
+    second: a_clean_transparent_background_sprite_sheet_image_60
+  - first:
+      213: -6187651098806397371
+    second: a_clean_transparent_background_sprite_sheet_image_61
+  - first:
+      213: -3117555304768302692
+    second: a_clean_transparent_background_sprite_sheet_image_62
+  - first:
+      213: -6713491458445887324
+    second: a_clean_transparent_background_sprite_sheet_image_63
+  - first:
+      213: -8741593861471139025
+    second: a_clean_transparent_background_sprite_sheet_image_64
+  - first:
+      213: -3820621947002573230
+    second: a_clean_transparent_background_sprite_sheet_image_65
+  - first:
+      213: -2627025650653449834
+    second: a_clean_transparent_background_sprite_sheet_image_66
+  - first:
+      213: 1276358219500395543
+    second: a_clean_transparent_background_sprite_sheet_image_67
+  - first:
+      213: 2304692877540339524
+    second: a_clean_transparent_background_sprite_sheet_image_68
+  - first:
+      213: -7896149838458841198
+    second: a_clean_transparent_background_sprite_sheet_image_69
+  - first:
+      213: -690655070416755199
+    second: a_clean_transparent_background_sprite_sheet_image_70
+  - first:
+      213: -3882595793573803807
+    second: a_clean_transparent_background_sprite_sheet_image_71
+  - first:
+      213: 8560028852944049302
+    second: a_clean_transparent_background_sprite_sheet_image_72
+  - first:
+      213: -1453632036774114873
+    second: a_clean_transparent_background_sprite_sheet_image_73
+  - first:
+      213: 9078659434533440564
+    second: a_clean_transparent_background_sprite_sheet_image_74
+  - first:
+      213: -7828163587951289947
+    second: a_clean_transparent_background_sprite_sheet_image_75
+  - first:
+      213: 6847141652243614501
+    second: a_clean_transparent_background_sprite_sheet_image_76
+  - first:
+      213: 557723952161685333
+    second: a_clean_transparent_background_sprite_sheet_image_77
+  - first:
+      213: 401105838973295762
+    second: a_clean_transparent_background_sprite_sheet_image_78
+  - first:
+      213: -1365515628581447273
+    second: a_clean_transparent_background_sprite_sheet_image_79
+  - first:
+      213: 2197583103163548088
+    second: a_clean_transparent_background_sprite_sheet_image_80
+  - first:
+      213: -1409542664650575792
+    second: a_clean_transparent_background_sprite_sheet_image_81
+  - first:
+      213: -5449141880891198077
+    second: a_clean_transparent_background_sprite_sheet_image_82
+  - first:
+      213: -2708186683641732569
+    second: a_clean_transparent_background_sprite_sheet_image_83
+  - first:
+      213: 7528155818143316628
+    second: a_clean_transparent_background_sprite_sheet_image_84
+  - first:
+      213: -111413353583120825
+    second: a_clean_transparent_background_sprite_sheet_image_85
+  - first:
+      213: 8064472136714314130
+    second: a_clean_transparent_background_sprite_sheet_image_86
+  - first:
+      213: 4933731450585777431
+    second: a_clean_transparent_background_sprite_sheet_image_87
+  - first:
+      213: -471031477260762720
+    second: a_clean_transparent_background_sprite_sheet_image_88
+  - first:
+      213: -8357027555696284402
+    second: a_clean_transparent_background_sprite_sheet_image_89
+  - first:
+      213: 5201931877673792162
+    second: a_clean_transparent_background_sprite_sheet_image_90
+  - first:
+      213: 3894253258980328498
+    second: a_clean_transparent_background_sprite_sheet_image_91
+  - first:
+      213: 7465726506672620126
+    second: a_clean_transparent_background_sprite_sheet_image_92
+  - first:
+      213: 4378104873867358940
+    second: a_clean_transparent_background_sprite_sheet_image_93
+  - first:
+      213: -230396787251576137
+    second: a_clean_transparent_background_sprite_sheet_image_94
+  - first:
+      213: 2619270596099994067
+    second: a_clean_transparent_background_sprite_sheet_image_95
+  - first:
+      213: -8890151260495885048
+    second: a_clean_transparent_background_sprite_sheet_image_96
+  - first:
+      213: -8283059712585020364
+    second: a_clean_transparent_background_sprite_sheet_image_97
+  - first:
+      213: 1112923003585874086
+    second: a_clean_transparent_background_sprite_sheet_image_98
+  - first:
+      213: 1270531339744921552
+    second: a_clean_transparent_background_sprite_sheet_image_99
+  - first:
+      213: 392895263460634698
+    second: a_clean_transparent_background_sprite_sheet_image_100
+  - first:
+      213: 1715267080351151171
+    second: a_clean_transparent_background_sprite_sheet_image_101
+  - first:
+      213: 8277940015130791333
+    second: a_clean_transparent_background_sprite_sheet_image_102
+  - first:
+      213: -5088335384728299125
+    second: a_clean_transparent_background_sprite_sheet_image_103
+  - first:
+      213: 6074204157479657229
+    second: a_clean_transparent_background_sprite_sheet_image_104
+  - first:
+      213: -8578567710461159192
+    second: a_clean_transparent_background_sprite_sheet_image_105
+  - first:
+      213: -7727682456606459708
+    second: a_clean_transparent_background_sprite_sheet_image_106
+  - first:
+      213: -1682637232563867421
+    second: a_clean_transparent_background_sprite_sheet_image_107
+  - first:
+      213: -2495925937759017069
+    second: a_clean_transparent_background_sprite_sheet_image_108
+  - first:
+      213: 1150610206894054267
+    second: a_clean_transparent_background_sprite_sheet_image_109
+  - first:
+      213: -9102595797433345700
+    second: a_clean_transparent_background_sprite_sheet_image_110
+  - first:
+      213: 5530533648120895830
+    second: a_clean_transparent_background_sprite_sheet_image_111
+  - first:
+      213: 3967619074347728070
+    second: a_clean_transparent_background_sprite_sheet_image_112
+  - first:
+      213: -147109751938457802
+    second: a_clean_transparent_background_sprite_sheet_image_113
+  - first:
+      213: 7276145161282190698
+    second: a_clean_transparent_background_sprite_sheet_image_114
+  - first:
+      213: -1586838734939745391
+    second: a_clean_transparent_background_sprite_sheet_image_115
+  - first:
+      213: -8324951700857049299
+    second: a_clean_transparent_background_sprite_sheet_image_116
+  - first:
+      213: -8608205619112891741
+    second: a_clean_transparent_background_sprite_sheet_image_117
+  - first:
+      213: 2069743120005366669
+    second: a_clean_transparent_background_sprite_sheet_image_118
+  - first:
+      213: -7165625291060341380
+    second: a_clean_transparent_background_sprite_sheet_image_119
+  - first:
+      213: 3131421918040336629
+    second: a_clean_transparent_background_sprite_sheet_image_120
+  - first:
+      213: -2274257222588915438
+    second: a_clean_transparent_background_sprite_sheet_image_121
+  - first:
+      213: -3338954743202137632
+    second: a_clean_transparent_background_sprite_sheet_image_122
+  - first:
+      213: 3219482565962678137
+    second: a_clean_transparent_background_sprite_sheet_image_123
+  - first:
+      213: -8542793797565296891
+    second: a_clean_transparent_background_sprite_sheet_image_124
+  - first:
+      213: 7118500791459508696
+    second: a_clean_transparent_background_sprite_sheet_image_125
+  - first:
+      213: 5173883868578531010
+    second: a_clean_transparent_background_sprite_sheet_image_126
+  - first:
+      213: -7806824011000755630
+    second: a_clean_transparent_background_sprite_sheet_image_127
+  - first:
+      213: 345649764626097067
+    second: a_clean_transparent_background_sprite_sheet_image_128
+  - first:
+      213: 3556782944251388984
+    second: a_clean_transparent_background_sprite_sheet_image_129
+  - first:
+      213: 8259557569628261869
+    second: a_clean_transparent_background_sprite_sheet_image_130
+  - first:
+      213: 2491743332411222175
+    second: a_clean_transparent_background_sprite_sheet_image_131
+  - first:
+      213: -1944741927345841378
+    second: a_clean_transparent_background_sprite_sheet_image_132
+  - first:
+      213: -7327760458102138338
+    second: a_clean_transparent_background_sprite_sheet_image_133
+  - first:
+      213: -3463776118902504517
+    second: a_clean_transparent_background_sprite_sheet_image_134
+  - first:
+      213: -3038596142600605838
+    second: a_clean_transparent_background_sprite_sheet_image_135
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675e48e780a0a5f30800000000000000
+      internalID: 4564972203892073846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfc97e3ee05c4260800000000000000
+      internalID: 7083125298127556565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda0f0f96dec60ef0800000000000000
+      internalID: -142198917028705573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649cb4c0781660380800000000000000
+      internalID: -9005403172225955514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_4
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c3c66b15fd87150800000000000000
+      internalID: 5870687656323333200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29c5790e6d3e0c40800000000000000
+      internalID: 5480385339370883371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2598feef688ecaf80800000000000000
+      internalID: -8093838763791251118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730d628a167c20720800000000000000
+      internalID: 2811028339679481911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_8
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967e27b9c157894c0800000000000000
+      internalID: -4280542680088123543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_clean_transparent_background_sprite_sheet_image_9
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f07baffb71ad3980800000000000000
+      internalID: -8557506162991599371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e7e6c9803cc2ffe4b999cfaf470f1a26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":2.0},"gridSpriteSize":{"x":307.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      a_clean_transparent_background_sprite_sheet_image_0: 4564972203892073846
+      a_clean_transparent_background_sprite_sheet_image_1: 7083125298127556565
+      a_clean_transparent_background_sprite_sheet_image_2: -142198917028705573
+      a_clean_transparent_background_sprite_sheet_image_3: -9005403172225955514
+      a_clean_transparent_background_sprite_sheet_image_4: 5870687656323333200
+      a_clean_transparent_background_sprite_sheet_image_5: 5480385339370883371
+      a_clean_transparent_background_sprite_sheet_image_6: -8093838763791251118
+      a_clean_transparent_background_sprite_sheet_image_7: 2811028339679481911
+      a_clean_transparent_background_sprite_sheet_image_8: -4280542680088123543
+      a_clean_transparent_background_sprite_sheet_image_9: -8557506162991599371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ae3560759ca6cb3449ff18529bd0b13d
+  - enabled: 1
+    path: Assets/Compartido/Escenas/HISTORIA.unity
+    guid: d0b19afa88645af4ab38d557f15f1bad
+  - enabled: 1
+    path: Assets/Compartido/Escenas/porsilas.unity
+    guid: 6775c46db7a7f9249b2160e88eaba5be
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: 2dcfa60dba46df040b8f11e417d56ec6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4132014609170138821
+    second: jawi-salto-26frames_0
+  - first:
+      213: -3871902632253875564
+    second: jawi-salto-26frames_1
+  - first:
+      213: 5811245232911931089
+    second: jawi-salto-26frames_2
+  - first:
+      213: -3491027061919357432
+    second: jawi-salto-26frames_3
+  - first:
+      213: 6771541507172924266
+    second: jawi-salto-26frames_4
+  - first:
+      213: -6227534881469796744
+    second: jawi-salto-26frames_5
+  - first:
+      213: -3263110314006520331
+    second: jawi-salto-26frames_6
+  - first:
+      213: 6168919915368748844
+    second: jawi-salto-26frames_7
+  - first:
+      213: -6633215400600333892
+    second: jawi-salto-26frames_8
+  - first:
+      213: -2305648584202924842
+    second: jawi-salto-26frames_9
+  - first:
+      213: 3886628004298145751
+    second: jawi-salto-26frames_10
+  - first:
+      213: 1706965449860753574
+    second: jawi-salto-26frames_11
+  - first:
+      213: 5259037058640628050
+    second: jawi-salto-26frames_12
+  - first:
+      213: -757823415660924496
+    second: jawi-salto-26frames_13
+  - first:
+      213: 8916514429962276998
+    second: jawi-salto-26frames_14
+  - first:
+      213: -1502037320930226896
+    second: jawi-salto-26frames_15
+  - first:
+      213: 2648978752576967269
+    second: jawi-salto-26frames_16
+  - first:
+      213: 6420993010052698251
+    second: jawi-salto-26frames_17
+  - first:
+      213: 6830866861363006043
+    second: jawi-salto-26frames_18
+  - first:
+      213: -5708638566327719393
+    second: jawi-salto-26frames_19
+  - first:
+      213: -8182955296591508902
+    second: jawi-salto-26frames_20
+  - first:
+      213: 6192613660923106125
+    second: jawi-salto-26frames_21
+  - first:
+      213: -986324322227365119
+    second: jawi-salto-26frames_22
+  - first:
+      213: 854265060354696964
+    second: jawi-salto-26frames_23
+  - first:
+      213: 7963781921855677286
+    second: jawi-salto-26frames_24
+  - first:
+      213: 8376278157195883658
+    second: jawi-salto-26frames_25
+  - first:
+      213: -3111838688422275043
+    second: jawi-salto-26frames_26
+  - first:
+      213: 7613451135054263696
+    second: jawi-salto-26frames_27
+  - first:
+      213: -1349586266056785170
+    second: jawi-salto-26frames_28
+  - first:
+      213: 176201880965116534
+    second: jawi-salto-26frames_29
+  - first:
+      213: -4858113644515155628
+    second: jawi-salto-26frames_30
+  - first:
+      213: -2960171927677724217
+    second: jawi-salto-26frames_31
+  - first:
+      213: 7734063664983310704
+    second: jawi-salto-26frames_32
+  - first:
+      213: -1871599453762129383
+    second: jawi-salto-26frames_33
+  - first:
+      213: 6476353651695394623
+    second: jawi-salto-26frames_34
+  - first:
+      213: 7616898953182984658
+    second: jawi-salto-26frames_35
+  - first:
+      213: -6532834500196714221
+    second: jawi-salto-26frames_36
+  - first:
+      213: 708670280042286521
+    second: jawi-salto-26frames_37
+  - first:
+      213: -8209884276805776345
+    second: jawi-salto-26frames_38
+  - first:
+      213: 44711759313479879
+    second: jawi-salto-26frames_39
+  - first:
+      213: 5266361419394114112
+    second: jawi-salto-26frames_40
+  - first:
+      213: 4117630306668062620
+    second: jawi-salto-26frames_41
+  - first:
+      213: -340910204417140712
+    second: jawi-salto-26frames_42
+  - first:
+      213: -6581895527245129589
+    second: jawi-salto-26frames_43
+  - first:
+      213: 1926214753335251265
+    second: jawi-salto-26frames_44
+  - first:
+      213: -8674081703002990568
+    second: jawi-salto-26frames_45
+  - first:
+      213: -3580511671261894850
+    second: jawi-salto-26frames_46
+  - first:
+      213: 6168890514133195809
+    second: jawi-salto-26frames_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jawi-salto-26frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3970b5fa9228a6c0800000000000000
+      internalID: -4132014609170138821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a9b97f11d344ac0800000000000000
+      internalID: -3871902632253875564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6d56200c0b5a050800000000000000
+      internalID: 5811245232911931089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_3
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806650922616d8fc0800000000000000
+      internalID: -3491027061919357432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bfad4af1959fd50800000000000000
+      internalID: 6771541507172924266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_5
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e63ab250a5399a0800000000000000
+      internalID: -6227534881469796744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_6
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd5ab6457a17b2d0800000000000000
+      internalID: -3263110314006520331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_7
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2304
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27136b8af76c9550800000000000000
+      internalID: 6168919915368748844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb11198ccb512f3a0800000000000000
+      internalID: -6633215400600333892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcc3b914d0b000e0800000000000000
+      internalID: -2305648584202924842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfb642e39310f530800000000000000
+      internalID: 3886628004298145751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_11
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8a0d2680c50b710800000000000000
+      internalID: 1706965449860753574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259c3ec575adbf840800000000000000
+      internalID: 5259037058640628050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1be0b5e9bab75f0800000000000000
+      internalID: -757823415660924496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_14
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680db80e1a2ddbb70800000000000000
+      internalID: 8916514429962276998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_15
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1536
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d0396c301b72be0800000000000000
+      internalID: -1502037320930226896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56258ecf32013c420800000000000000
+      internalID: 2648978752576967269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80157d6f13fb1950800000000000000
+      internalID: 6420993010052698251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a878b083d1cce50800000000000000
+      internalID: 6830866861363006043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_19
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ae0f63877d6c0b0800000000000000
+      internalID: -5708638566327719393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_20
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a03cd438d407e80800000000000000
+      internalID: -8182955296591508902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_21
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d439d82905590f550800000000000000
+      internalID: 6192613660923106125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_22
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b5f44314fdf42f0800000000000000
+      internalID: -986324322227365119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_23
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 768
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407287adb85fadb00800000000000000
+      internalID: 854265060354696964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663a2e8c679058e60800000000000000
+      internalID: 7963781921855677286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-salto-26frames_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 768
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a843683ca948e3470800000000000000
+      internalID: 8376278157195883658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6ac72839f506b4d4c85f465f5155102b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":4.0},"gridSpriteSize":{"x":768.0,"y":768.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      jawi-salto-26frames_0: -4132014609170138821
+      jawi-salto-26frames_1: -3871902632253875564
+      jawi-salto-26frames_10: 3886628004298145751
+      jawi-salto-26frames_11: 1706965449860753574
+      jawi-salto-26frames_12: 5259037058640628050
+      jawi-salto-26frames_13: -757823415660924496
+      jawi-salto-26frames_14: 8916514429962276998
+      jawi-salto-26frames_15: -1502037320930226896
+      jawi-salto-26frames_16: 2648978752576967269
+      jawi-salto-26frames_17: 6420993010052698251
+      jawi-salto-26frames_18: 6830866861363006043
+      jawi-salto-26frames_19: -5708638566327719393
+      jawi-salto-26frames_2: 5811245232911931089
+      jawi-salto-26frames_20: -8182955296591508902
+      jawi-salto-26frames_21: 6192613660923106125
+      jawi-salto-26frames_22: -986324322227365119
+      jawi-salto-26frames_23: 854265060354696964
+      jawi-salto-26frames_24: 7963781921855677286
+      jawi-salto-26frames_25: 8376278157195883658
+      jawi-salto-26frames_3: -3491027061919357432
+      jawi-salto-26frames_4: 6771541507172924266
+      jawi-salto-26frames_5: -6227534881469796744
+      jawi-salto-26frames_6: -3263110314006520331
+      jawi-salto-26frames_7: 6168919915368748844
+      jawi-salto-26frames_8: -6633215400600333892
+      jawi-salto-26frames_9: -2305648584202924842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

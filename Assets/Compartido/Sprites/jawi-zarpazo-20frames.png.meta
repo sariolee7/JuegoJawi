@@ -1,0 +1,1363 @@
+fileFormatVersion: 2
+guid: 6955c3698787d3f418f7285893fea54c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3850297827168554849
+    second: jawi-zarpazo-20frames_0
+  - first:
+      213: -9054760988246817257
+    second: jawi-zarpazo-20frames_1
+  - first:
+      213: 2727007964340738149
+    second: jawi-zarpazo-20frames_2
+  - first:
+      213: -6309651074785023932
+    second: jawi-zarpazo-20frames_3
+  - first:
+      213: -7702503548459482163
+    second: jawi-zarpazo-20frames_4
+  - first:
+      213: 4786850556836147919
+    second: jawi-zarpazo-20frames_5
+  - first:
+      213: 1200753771136016441
+    second: jawi-zarpazo-20frames_6
+  - first:
+      213: -1650217424232766101
+    second: jawi-zarpazo-20frames_7
+  - first:
+      213: -3813909432471261784
+    second: jawi-zarpazo-20frames_8
+  - first:
+      213: -4360691609858550055
+    second: jawi-zarpazo-20frames_9
+  - first:
+      213: 3880482049530369576
+    second: jawi-zarpazo-20frames_10
+  - first:
+      213: 3761312324976578735
+    second: jawi-zarpazo-20frames_11
+  - first:
+      213: -5921263113227753357
+    second: jawi-zarpazo-20frames_12
+  - first:
+      213: 620030070448502862
+    second: jawi-zarpazo-20frames_13
+  - first:
+      213: -7276142736068153356
+    second: jawi-zarpazo-20frames_14
+  - first:
+      213: -4734988038051792812
+    second: jawi-zarpazo-20frames_15
+  - first:
+      213: 3330683181481288425
+    second: jawi-zarpazo-20frames_16
+  - first:
+      213: 6753477818541000850
+    second: jawi-zarpazo-20frames_17
+  - first:
+      213: 4040563181772295897
+    second: jawi-zarpazo-20frames_18
+  - first:
+      213: -3438543345324303892
+    second: jawi-zarpazo-20frames_19
+  - first:
+      213: -186411780023375045
+    second: jawi-zarpazo-20frames_20
+  - first:
+      213: -7100465033649267113
+    second: jawi-zarpazo-20frames_21
+  - first:
+      213: 4515448686549458598
+    second: jawi-zarpazo-20frames_22
+  - first:
+      213: 1459054557777994590
+    second: jawi-zarpazo-20frames_23
+  - first:
+      213: -583867444315631848
+    second: jawi-zarpazo-20frames_24
+  - first:
+      213: -4173677710711066449
+    second: jawi-zarpazo-20frames_25
+  - first:
+      213: -6626828051612018810
+    second: jawi-zarpazo-20frames_26
+  - first:
+      213: 5658698355696569798
+    second: jawi-zarpazo-20frames_27
+  - first:
+      213: -550975398504999721
+    second: jawi-zarpazo-20frames_28
+  - first:
+      213: -4074197908607769568
+    second: jawi-zarpazo-20frames_29
+  - first:
+      213: -4524866891164363971
+    second: jawi-zarpazo-20frames_30
+  - first:
+      213: 1207841413636941247
+    second: jawi-zarpazo-20frames_31
+  - first:
+      213: 3233606372052942429
+    second: jawi-zarpazo-20frames_32
+  - first:
+      213: -2548112266787578346
+    second: jawi-zarpazo-20frames_33
+  - first:
+      213: -1857597164696905438
+    second: jawi-zarpazo-20frames_34
+  - first:
+      213: -4687027400355731489
+    second: jawi-zarpazo-20frames_35
+  - first:
+      213: 2609418363240101500
+    second: jawi-zarpazo-20frames_36
+  - first:
+      213: 4083926543079130447
+    second: jawi-zarpazo-20frames_37
+  - first:
+      213: -6633799554295005324
+    second: jawi-zarpazo-20frames_38
+  - first:
+      213: 393648252248021274
+    second: jawi-zarpazo-20frames_39
+  - first:
+      213: 7889617556503052849
+    second: jawi-zarpazo-20frames_40
+  - first:
+      213: 547669752681541483
+    second: jawi-zarpazo-20frames_41
+  - first:
+      213: -3762798719851747673
+    second: jawi-zarpazo-20frames_42
+  - first:
+      213: 4814448962863187845
+    second: jawi-zarpazo-20frames_43
+  - first:
+      213: -735846292647308088
+    second: jawi-zarpazo-20frames_44
+  - first:
+      213: -7971844096001359613
+    second: jawi-zarpazo-20frames_45
+  - first:
+      213: -868052238536143510
+    second: jawi-zarpazo-20frames_46
+  - first:
+      213: 7825765463486176284
+    second: jawi-zarpazo-20frames_47
+  - first:
+      213: 6454741837058800639
+    second: jawi-zarpazo-20frames_48
+  - first:
+      213: -8638771460562805214
+    second: jawi-zarpazo-20frames_49
+  - first:
+      213: -4322085280133974488
+    second: jawi-zarpazo-20frames_50
+  - first:
+      213: -3276473571906508327
+    second: jawi-zarpazo-20frames_51
+  - first:
+      213: -8507553172924171191
+    second: jawi-zarpazo-20frames_52
+  - first:
+      213: 7952549748480205734
+    second: jawi-zarpazo-20frames_53
+  - first:
+      213: -5912221905714979115
+    second: jawi-zarpazo-20frames_54
+  - first:
+      213: 7440023120242811515
+    second: jawi-zarpazo-20frames_55
+  - first:
+      213: 7849539074516925557
+    second: jawi-zarpazo-20frames_56
+  - first:
+      213: -7835116698150138345
+    second: jawi-zarpazo-20frames_57
+  - first:
+      213: -5043641910941248649
+    second: jawi-zarpazo-20frames_58
+  - first:
+      213: -1954393728827319049
+    second: jawi-zarpazo-20frames_59
+  - first:
+      213: 1674029266265991680
+    second: jawi-zarpazo-20frames_60
+  - first:
+      213: -5525737205230971703
+    second: jawi-zarpazo-20frames_61
+  - first:
+      213: -5393133791034746867
+    second: jawi-zarpazo-20frames_62
+  - first:
+      213: -7097034063627531420
+    second: jawi-zarpazo-20frames_63
+  - first:
+      213: -6471217304379026361
+    second: jawi-zarpazo-20frames_64
+  - first:
+      213: -7653515455151162814
+    second: jawi-zarpazo-20frames_65
+  - first:
+      213: -7229735594510860334
+    second: jawi-zarpazo-20frames_66
+  - first:
+      213: 7983040188719358605
+    second: jawi-zarpazo-20frames_67
+  - first:
+      213: 5548580454050631098
+    second: jawi-zarpazo-20frames_68
+  - first:
+      213: 944562443872393149
+    second: jawi-zarpazo-20frames_69
+  - first:
+      213: 1274895421842171925
+    second: jawi-zarpazo-20frames_70
+  - first:
+      213: 235562239116102935
+    second: jawi-zarpazo-20frames_71
+  - first:
+      213: 1610017507895092516
+    second: jawi-zarpazo-20frames_72
+  - first:
+      213: -7133508951351822210
+    second: jawi-zarpazo-20frames_73
+  - first:
+      213: -7762030286316928511
+    second: jawi-zarpazo-20frames_74
+  - first:
+      213: 624687144282798891
+    second: jawi-zarpazo-20frames_75
+  - first:
+      213: -4780804459612724887
+    second: jawi-zarpazo-20frames_76
+  - first:
+      213: 1651657649599720436
+    second: jawi-zarpazo-20frames_77
+  - first:
+      213: -4181919649201206723
+    second: jawi-zarpazo-20frames_78
+  - first:
+      213: -7958989626306886417
+    second: jawi-zarpazo-20frames_79
+  - first:
+      213: -4571581611338541559
+    second: jawi-zarpazo-20frames_80
+  - first:
+      213: -1259406857724827366
+    second: jawi-zarpazo-20frames_81
+  - first:
+      213: 5032949860352446270
+    second: jawi-zarpazo-20frames_82
+  - first:
+      213: 1908750704362567317
+    second: jawi-zarpazo-20frames_83
+  - first:
+      213: -2836675246463119511
+    second: jawi-zarpazo-20frames_84
+  - first:
+      213: -7701674657050850886
+    second: jawi-zarpazo-20frames_85
+  - first:
+      213: 7482163941165251536
+    second: jawi-zarpazo-20frames_86
+  - first:
+      213: 5054511174521780187
+    second: jawi-zarpazo-20frames_87
+  - first:
+      213: -1186905765039260482
+    second: jawi-zarpazo-20frames_88
+  - first:
+      213: 2796247869941226466
+    second: jawi-zarpazo-20frames_89
+  - first:
+      213: -4407402930469025873
+    second: jawi-zarpazo-20frames_90
+  - first:
+      213: -1693867132682851799
+    second: jawi-zarpazo-20frames_91
+  - first:
+      213: 2047577271942947534
+    second: jawi-zarpazo-20frames_92
+  - first:
+      213: 332246964151005772
+    second: jawi-zarpazo-20frames_93
+  - first:
+      213: -1123458330424099745
+    second: jawi-zarpazo-20frames_94
+  - first:
+      213: -4756199813528406460
+    second: jawi-zarpazo-20frames_95
+  - first:
+      213: 1652242936931268318
+    second: jawi-zarpazo-20frames_96
+  - first:
+      213: -8127100847717922686
+    second: jawi-zarpazo-20frames_97
+  - first:
+      213: -3598010404526379922
+    second: jawi-zarpazo-20frames_98
+  - first:
+      213: 4167429034288878481
+    second: jawi-zarpazo-20frames_99
+  - first:
+      213: -972601634143931410
+    second: jawi-zarpazo-20frames_100
+  - first:
+      213: 3729967798385021359
+    second: jawi-zarpazo-20frames_101
+  - first:
+      213: -8430003872458551831
+    second: jawi-zarpazo-20frames_102
+  - first:
+      213: 650747251872547099
+    second: jawi-zarpazo-20frames_103
+  - first:
+      213: -4138142021340642439
+    second: jawi-zarpazo-20frames_104
+  - first:
+      213: -202572302146245361
+    second: jawi-zarpazo-20frames_105
+  - first:
+      213: -3465180497429808425
+    second: jawi-zarpazo-20frames_106
+  - first:
+      213: -4979472979381925993
+    second: jawi-zarpazo-20frames_107
+  - first:
+      213: 5677321560354554623
+    second: jawi-zarpazo-20frames_108
+  - first:
+      213: 130278175755347684
+    second: jawi-zarpazo-20frames_109
+  - first:
+      213: 6528933743679769022
+    second: jawi-zarpazo-20frames_110
+  - first:
+      213: 1608695602529804734
+    second: jawi-zarpazo-20frames_111
+  - first:
+      213: 6660240924268185096
+    second: jawi-zarpazo-20frames_112
+  - first:
+      213: -8946554038592003073
+    second: jawi-zarpazo-20frames_113
+  - first:
+      213: 4948112334116716585
+    second: jawi-zarpazo-20frames_114
+  - first:
+      213: -5429004975611636380
+    second: jawi-zarpazo-20frames_115
+  - first:
+      213: -7952411334549501965
+    second: jawi-zarpazo-20frames_116
+  - first:
+      213: 7138298091352947985
+    second: jawi-zarpazo-20frames_117
+  - first:
+      213: 5275674523532809775
+    second: jawi-zarpazo-20frames_118
+  - first:
+      213: -7008639602414017623
+    second: jawi-zarpazo-20frames_119
+  - first:
+      213: 1880857296288761856
+    second: jawi-zarpazo-20frames_120
+  - first:
+      213: 606242237080743066
+    second: jawi-zarpazo-20frames_121
+  - first:
+      213: -6188038700853884859
+    second: jawi-zarpazo-20frames_122
+  - first:
+      213: -6015080279879999699
+    second: jawi-zarpazo-20frames_123
+  - first:
+      213: -5351213880389092211
+    second: jawi-zarpazo-20frames_124
+  - first:
+      213: 8815704399364646009
+    second: jawi-zarpazo-20frames_125
+  - first:
+      213: -6856388125734862727
+    second: jawi-zarpazo-20frames_126
+  - first:
+      213: 8027713646777024197
+    second: jawi-zarpazo-20frames_127
+  - first:
+      213: 274199488525773700
+    second: jawi-zarpazo-20frames_128
+  - first:
+      213: 9192221125158807571
+    second: jawi-zarpazo-20frames_129
+  - first:
+      213: 8850624941433158681
+    second: jawi-zarpazo-20frames_130
+  - first:
+      213: -8804997054730103101
+    second: jawi-zarpazo-20frames_131
+  - first:
+      213: 1826203274470113459
+    second: jawi-zarpazo-20frames_132
+  - first:
+      213: -6981175184016184981
+    second: jawi-zarpazo-20frames_133
+  - first:
+      213: 5675433224882481509
+    second: jawi-zarpazo-20frames_134
+  - first:
+      213: 4174520280654321246
+    second: jawi-zarpazo-20frames_135
+  - first:
+      213: -2573605216685165950
+    second: jawi-zarpazo-20frames_136
+  - first:
+      213: 8485424554871403719
+    second: jawi-zarpazo-20frames_137
+  - first:
+      213: -6490021806749245367
+    second: jawi-zarpazo-20frames_138
+  - first:
+      213: 4128605324696514346
+    second: jawi-zarpazo-20frames_139
+  - first:
+      213: 953625165494370221
+    second: jawi-zarpazo-20frames_140
+  - first:
+      213: -8611563907061340577
+    second: jawi-zarpazo-20frames_141
+  - first:
+      213: -8595543056535926953
+    second: jawi-zarpazo-20frames_142
+  - first:
+      213: 6724553123032162452
+    second: jawi-zarpazo-20frames_143
+  - first:
+      213: 3397456642771070210
+    second: jawi-zarpazo-20frames_144
+  - first:
+      213: 6554097871808403692
+    second: jawi-zarpazo-20frames_145
+  - first:
+      213: -2896263466877475038
+    second: jawi-zarpazo-20frames_146
+  - first:
+      213: -1385120514089553978
+    second: jawi-zarpazo-20frames_147
+  - first:
+      213: 7745151733111520553
+    second: jawi-zarpazo-20frames_148
+  - first:
+      213: 3539319508939065373
+    second: jawi-zarpazo-20frames_149
+  - first:
+      213: -6458940827334576820
+    second: jawi-zarpazo-20frames_150
+  - first:
+      213: -3305724557474292600
+    second: jawi-zarpazo-20frames_151
+  - first:
+      213: 5310882249235143778
+    second: jawi-zarpazo-20frames_152
+  - first:
+      213: 6307771300785512827
+    second: jawi-zarpazo-20frames_153
+  - first:
+      213: -5091109789073179301
+    second: jawi-zarpazo-20frames_154
+  - first:
+      213: -4208727820970034115
+    second: jawi-zarpazo-20frames_155
+  - first:
+      213: 5514066804601953897
+    second: jawi-zarpazo-20frames_156
+  - first:
+      213: 3816692189056020442
+    second: jawi-zarpazo-20frames_157
+  - first:
+      213: -1927642212313229474
+    second: jawi-zarpazo-20frames_158
+  - first:
+      213: -5525751868825986618
+    second: jawi-zarpazo-20frames_159
+  - first:
+      213: -4998271726773946712
+    second: jawi-zarpazo-20frames_160
+  - first:
+      213: -5233343559938407557
+    second: jawi-zarpazo-20frames_161
+  - first:
+      213: -1486665633954772369
+    second: jawi-zarpazo-20frames_162
+  - first:
+      213: 5756716998472753155
+    second: jawi-zarpazo-20frames_163
+  - first:
+      213: -7271025833143889878
+    second: jawi-zarpazo-20frames_164
+  - first:
+      213: -7830230407078203423
+    second: jawi-zarpazo-20frames_165
+  - first:
+      213: -7054083049679525403
+    second: jawi-zarpazo-20frames_166
+  - first:
+      213: -8081034323104472090
+    second: jawi-zarpazo-20frames_167
+  - first:
+      213: -1120695404311448059
+    second: jawi-zarpazo-20frames_168
+  - first:
+      213: 7891392575137992261
+    second: jawi-zarpazo-20frames_169
+  - first:
+      213: 6610640086717936895
+    second: jawi-zarpazo-20frames_170
+  - first:
+      213: 5523807441220994908
+    second: jawi-zarpazo-20frames_171
+  - first:
+      213: 7181591798745904414
+    second: jawi-zarpazo-20frames_172
+  - first:
+      213: 2275554305233742246
+    second: jawi-zarpazo-20frames_173
+  - first:
+      213: 6223335415638576038
+    second: jawi-zarpazo-20frames_174
+  - first:
+      213: -4493832756538274781
+    second: jawi-zarpazo-20frames_175
+  - first:
+      213: 3923043407079723121
+    second: jawi-zarpazo-20frames_176
+  - first:
+      213: -5798191015646651927
+    second: jawi-zarpazo-20frames_177
+  - first:
+      213: -5475224303165913023
+    second: jawi-zarpazo-20frames_178
+  - first:
+      213: -5850003631771566343
+    second: jawi-zarpazo-20frames_179
+  - first:
+      213: -3439532512547239136
+    second: jawi-zarpazo-20frames_180
+  - first:
+      213: 8643205105911965312
+    second: jawi-zarpazo-20frames_181
+  - first:
+      213: 2369138335557053414
+    second: jawi-zarpazo-20frames_182
+  - first:
+      213: -7341418117406204147
+    second: jawi-zarpazo-20frames_183
+  - first:
+      213: -4714985113544809503
+    second: jawi-zarpazo-20frames_184
+  - first:
+      213: 4769821718280433542
+    second: jawi-zarpazo-20frames_185
+  - first:
+      213: 1090367346727427654
+    second: jawi-zarpazo-20frames_186
+  - first:
+      213: -1642357141230381088
+    second: jawi-zarpazo-20frames_187
+  - first:
+      213: 6749200439071981031
+    second: jawi-zarpazo-20frames_188
+  - first:
+      213: 5102874837342160842
+    second: jawi-zarpazo-20frames_189
+  - first:
+      213: 9058135495393556736
+    second: jawi-zarpazo-20frames_190
+  - first:
+      213: 8236758543132919068
+    second: jawi-zarpazo-20frames_191
+  - first:
+      213: -8898076118693365474
+    second: jawi-zarpazo-20frames_192
+  - first:
+      213: -9001681633683131848
+    second: jawi-zarpazo-20frames_193
+  - first:
+      213: -699645092766995908
+    second: jawi-zarpazo-20frames_194
+  - first:
+      213: -4905872084433195840
+    second: jawi-zarpazo-20frames_195
+  - first:
+      213: -548624154195030916
+    second: jawi-zarpazo-20frames_196
+  - first:
+      213: -4747674833056340614
+    second: jawi-zarpazo-20frames_197
+  - first:
+      213: 4013799230737563611
+    second: jawi-zarpazo-20frames_198
+  - first:
+      213: 1777612181582418223
+    second: jawi-zarpazo-20frames_199
+  - first:
+      213: 4722252152337461008
+    second: jawi-zarpazo-20frames_200
+  - first:
+      213: 4337345372227370931
+    second: jawi-zarpazo-20frames_201
+  - first:
+      213: -2868015990573983263
+    second: jawi-zarpazo-20frames_202
+  - first:
+      213: -8031621914711763247
+    second: jawi-zarpazo-20frames_203
+  - first:
+      213: -4960663045748725144
+    second: jawi-zarpazo-20frames_204
+  - first:
+      213: -1005115415056273303
+    second: jawi-zarpazo-20frames_205
+  - first:
+      213: -4097044692465524246
+    second: jawi-zarpazo-20frames_206
+  - first:
+      213: -3239339209132361826
+    second: jawi-zarpazo-20frames_207
+  - first:
+      213: 2843885127462272678
+    second: jawi-zarpazo-20frames_208
+  - first:
+      213: 6258927372672746660
+    second: jawi-zarpazo-20frames_209
+  - first:
+      213: 2384532536698619258
+    second: jawi-zarpazo-20frames_210
+  - first:
+      213: 3736716817719155513
+    second: jawi-zarpazo-20frames_211
+  - first:
+      213: -5928418541998956751
+    second: jawi-zarpazo-20frames_212
+  - first:
+      213: 2547825321728752868
+    second: jawi-zarpazo-20frames_213
+  - first:
+      213: 6043546845213761226
+    second: jawi-zarpazo-20frames_214
+  - first:
+      213: 3927406774257072823
+    second: jawi-zarpazo-20frames_215
+  - first:
+      213: 5372561719568060982
+    second: jawi-zarpazo-20frames_216
+  - first:
+      213: -1345074497727358644
+    second: jawi-zarpazo-20frames_217
+  - first:
+      213: 4997276945814032761
+    second: jawi-zarpazo-20frames_218
+  - first:
+      213: -323486785413788162
+    second: jawi-zarpazo-20frames_219
+  - first:
+      213: -4450904874585375955
+    second: jawi-zarpazo-20frames_220
+  - first:
+      213: -1797049176691041953
+    second: jawi-zarpazo-20frames_221
+  - first:
+      213: 2203833240692194028
+    second: jawi-zarpazo-20frames_222
+  - first:
+      213: 3652602900021329517
+    second: jawi-zarpazo-20frames_223
+  - first:
+      213: -254249013639864885
+    second: jawi-zarpazo-20frames_224
+  - first:
+      213: 8646771014823742757
+    second: jawi-zarpazo-20frames_225
+  - first:
+      213: -2400213836053785306
+    second: jawi-zarpazo-20frames_226
+  - first:
+      213: -7379946613520146292
+    second: jawi-zarpazo-20frames_227
+  - first:
+      213: -1647964350778226661
+    second: jawi-zarpazo-20frames_228
+  - first:
+      213: 5065675438529273529
+    second: jawi-zarpazo-20frames_229
+  - first:
+      213: -3982671563924056095
+    second: jawi-zarpazo-20frames_230
+  - first:
+      213: 7341326477069394628
+    second: jawi-zarpazo-20frames_231
+  - first:
+      213: 4203139216221233757
+    second: jawi-zarpazo-20frames_232
+  - first:
+      213: -6068676386119682797
+    second: jawi-zarpazo-20frames_233
+  - first:
+      213: 3842804398689017222
+    second: jawi-zarpazo-20frames_234
+  - first:
+      213: -7047599724672973356
+    second: jawi-zarpazo-20frames_235
+  - first:
+      213: 1125903928574973622
+    second: jawi-zarpazo-20frames_236
+  - first:
+      213: -114074611141235156
+    second: jawi-zarpazo-20frames_237
+  - first:
+      213: 5793358563906421373
+    second: jawi-zarpazo-20frames_238
+  - first:
+      213: 2518027463523311068
+    second: jawi-zarpazo-20frames_239
+  - first:
+      213: 7376995950048216178
+    second: jawi-zarpazo-20frames_240
+  - first:
+      213: 6118928407097530522
+    second: jawi-zarpazo-20frames_241
+  - first:
+      213: -1113955492372927296
+    second: jawi-zarpazo-20frames_242
+  - first:
+      213: -5580338587413350115
+    second: jawi-zarpazo-20frames_243
+  - first:
+      213: 9011116822556532762
+    second: jawi-zarpazo-20frames_244
+  - first:
+      213: -3367583795808932373
+    second: jawi-zarpazo-20frames_245
+  - first:
+      213: 7558864238365826282
+    second: jawi-zarpazo-20frames_246
+  - first:
+      213: 8008354641864124572
+    second: jawi-zarpazo-20frames_247
+  - first:
+      213: 2746317436951734154
+    second: jawi-zarpazo-20frames_248
+  - first:
+      213: 8427188373520668773
+    second: jawi-zarpazo-20frames_249
+  - first:
+      213: 8659990696728840353
+    second: jawi-zarpazo-20frames_250
+  - first:
+      213: 8763140314574013123
+    second: jawi-zarpazo-20frames_251
+  - first:
+      213: 4263384961048227415
+    second: jawi-zarpazo-20frames_252
+  - first:
+      213: -2943458627399093603
+    second: jawi-zarpazo-20frames_253
+  - first:
+      213: 7482493444204076031
+    second: jawi-zarpazo-20frames_254
+  - first:
+      213: 6198777325228281859
+    second: jawi-zarpazo-20frames_255
+  - first:
+      213: -13496275833903758
+    second: jawi-zarpazo-20frames_256
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f824a68ef09ac0800000000000000
+      internalID: -3850297827168554849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716cb79fad6075280800000000000000
+      internalID: -9054760988246817257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568d0369b4748d520800000000000000
+      internalID: 2727007964340738149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e6c607cd9f68a0800000000000000
+      internalID: -6309651074785023932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc303e015d53b1590800000000000000
+      internalID: -7702503548459482163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc27919383f4e6240800000000000000
+      internalID: 4786850556836147919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930e547613fe9a010800000000000000
+      internalID: 1200753771136016441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_7
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b652272feff3919e0800000000000000
+      internalID: -1650217424232766101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ade9000495421bc0800000000000000
+      internalID: -3813909432471261784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6da53b516bb73c0800000000000000
+      internalID: -4360691609858550055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_10
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82699874ddd3ad530800000000000000
+      internalID: 3880482049530369576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_11
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0178b91add23430800000000000000
+      internalID: 3761312324976578735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_12
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378af6a129273dda0800000000000000
+      internalID: -5921263113227753357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_13
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48b423601aca9800800000000000000
+      internalID: 620030070448502862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_14
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff6e917bb2f50b90800000000000000
+      internalID: -7276142736068153356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_15
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458f2386771f94eb0800000000000000
+      internalID: -4734988038051792812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e26f83f4b6f83e20800000000000000
+      internalID: 3330683181481288425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298cd946b4c29bd50800000000000000
+      internalID: 6753477818541000850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_18
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de4f065ec6f21830800000000000000
+      internalID: 4040563181772295897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jawi-zarpazo-20frames_19
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9592dab07d740d0800000000000000
+      internalID: -3438543345324303892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cf3a491937caf7949888265b287a9efc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":3.0},"gridSpriteSize":{"x":1024.0,"y":768.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      jawi-zarpazo-20frames_0: -3850297827168554849
+      jawi-zarpazo-20frames_1: -9054760988246817257
+      jawi-zarpazo-20frames_10: 3880482049530369576
+      jawi-zarpazo-20frames_11: 3761312324976578735
+      jawi-zarpazo-20frames_12: -5921263113227753357
+      jawi-zarpazo-20frames_13: 620030070448502862
+      jawi-zarpazo-20frames_14: -7276142736068153356
+      jawi-zarpazo-20frames_15: -4734988038051792812
+      jawi-zarpazo-20frames_16: 3330683181481288425
+      jawi-zarpazo-20frames_17: 6753477818541000850
+      jawi-zarpazo-20frames_18: 4040563181772295897
+      jawi-zarpazo-20frames_19: -3438543345324303892
+      jawi-zarpazo-20frames_2: 2727007964340738149
+      jawi-zarpazo-20frames_3: -6309651074785023932
+      jawi-zarpazo-20frames_4: -7702503548459482163
+      jawi-zarpazo-20frames_5: 4786850556836147919
+      jawi-zarpazo-20frames_6: 1200753771136016441
+      jawi-zarpazo-20frames_7: -1650217424232766101
+      jawi-zarpazo-20frames_8: -3813909432471261784
+      jawi-zarpazo-20frames_9: -4360691609858550055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
