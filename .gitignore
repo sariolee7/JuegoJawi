@@ -140,3 +140,5 @@ crashlytics-build.properties
 /BuildWeb/
 /.utmp/
 /.vscode/
+
+JAWI_Web/

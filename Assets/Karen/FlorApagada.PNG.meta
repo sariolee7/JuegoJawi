@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: cba3b38c00dfebd4ca44eda8335ee616
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6473338041554491520
+    second: FlorApagada_0
+  - first:
+      213: -4992186592332181157
+    second: FlorApagada_1
+  - first:
+      213: 1394511974431358925
+    second: FlorApagada_2
+  - first:
+      213: -1655470227852413588
+    second: FlorApagada_3
+  - first:
+      213: 8106945895014261568
+    second: FlorApagada_4
+  - first:
+      213: 5175786868511879222
+    second: FlorApagada_5
+  - first:
+      213: -1044159396155347616
+    second: FlorApagada_6
+  - first:
+      213: -2481274227296759858
+    second: FlorApagada_7
+  - first:
+      213: -7044681697471136565
+    second: FlorApagada_8
+  - first:
+      213: -850766762699684705
+    second: FlorApagada_9
+  - first:
+      213: -6729870524788862999
+    second: FlorApagada_10
+  - first:
+      213: 6242848854930057500
+    second: FlorApagada_11
+  - first:
+      213: 1356187205130133512
+    second: FlorApagada_12
+  - first:
+      213: 2745331025259215578
+    second: FlorApagada_13
+  - first:
+      213: 169571803490828071
+    second: FlorApagada_14
+  - first:
+      213: 6104323293519345147
+    second: FlorApagada_15
+  - first:
+      213: 4929172039776572658
+    second: FlorApagada_16
+  - first:
+      213: 8900816259657026560
+    second: FlorApagada_17
+  - first:
+      213: 2532314895193927349
+    second: FlorApagada_18
+  - first:
+      213: 1674037553315490813
+    second: FlorApagada_19
+  - first:
+      213: 2010551490357687914
+    second: FlorApagada_20
+  - first:
+      213: -2528530390667909712
+    second: FlorApagada_21
+  - first:
+      213: 7796065161794300015
+    second: FlorApagada_22
+  - first:
+      213: 3219179582699831397
+    second: FlorApagada_23
+  - first:
+      213: 5705077073145070079
+    second: FlorApagada_24
+  - first:
+      213: -8275934003527082331
+    second: FlorApagada_25
+  - first:
+      213: -8885547989186879806
+    second: FlorApagada_26
+  - first:
+      213: 5647315144460361036
+    second: FlorApagada_27
+  - first:
+      213: -4707079176406954220
+    second: FlorApagada_28
+  - first:
+      213: -2189519169761455637
+    second: FlorApagada_29
+  - first:
+      213: 2009833190441512903
+    second: FlorApagada_30
+  - first:
+      213: 605249419005391608
+    second: FlorApagada_31
+  - first:
+      213: -7329595845347662432
+    second: FlorApagada_32
+  - first:
+      213: 1884341865352576811
+    second: FlorApagada_33
+  - first:
+      213: 6438900885218052120
+    second: FlorApagada_34
+  - first:
+      213: -7670339502648551092
+    second: FlorApagada_35
+  - first:
+      213: -2922466813929977345
+    second: FlorApagada_36
+  - first:
+      213: 5372016626084880196
+    second: FlorApagada_37
+  - first:
+      213: -7956052626453844573
+    second: FlorApagada_38
+  - first:
+      213: 4668136594179410371
+    second: FlorApagada_39
+  - first:
+      213: -2131950796503545716
+    second: FlorApagada_40
+  - first:
+      213: -3790925054389668710
+    second: FlorApagada_41
+  - first:
+      213: 2276741067668513602
+    second: FlorApagada_42
+  - first:
+      213: 8599503057621795632
+    second: FlorApagada_43
+  - first:
+      213: -7979331688780343707
+    second: FlorApagada_44
+  - first:
+      213: 5442415374936946404
+    second: FlorApagada_45
+  - first:
+      213: 4798961474762158297
+    second: FlorApagada_46
+  - first:
+      213: 5186303040296708116
+    second: FlorApagada_47
+  - first:
+      213: -7124437856555394541
+    second: FlorApagada_48
+  - first:
+      213: -5819068983267294418
+    second: FlorApagada_49
+  - first:
+      213: 4530912834218220143
+    second: FlorApagada_50
+  - first:
+      213: 1267926065273417027
+    second: FlorApagada_51
+  - first:
+      213: -6271586851637853930
+    second: FlorApagada_52
+  - first:
+      213: -6076435153215402915
+    second: FlorApagada_53
+  - first:
+      213: 7963515482965740441
+    second: FlorApagada_54
+  - first:
+      213: 7636419604593741977
+    second: FlorApagada_55
+  - first:
+      213: -9042080102191317723
+    second: FlorApagada_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlorApagada_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1387
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0872f1239551a26a0800000000000000
+      internalID: -6473338041554491520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_1
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1107
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5192977eb038bab0800000000000000
+      internalID: -4992186592332181157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_2
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1104
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf7207904d4a5310800000000000000
+      internalID: 1394511974431358925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 852
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c653f9c49969609e0800000000000000
+      internalID: -1655470227852413588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 864
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043e2adc658a18070800000000000000
+      internalID: 8106945895014261568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 863
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63038c20cb614d740800000000000000
+      internalID: 5175786868511879222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_6
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 790
+        width: 167
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d2647bf866281f0800000000000000
+      internalID: -1044159396155347616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 790
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf05a39c3eb09dd0800000000000000
+      internalID: -2481274227296759858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_8
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 676
+        width: 50
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc798a02534c3e90800000000000000
+      internalID: -7044681697471136565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 710
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94839a03287134f0800000000000000
+      internalID: -850766762699684705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 749
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef86910a62ba92a0800000000000000
+      internalID: -6729870524788862999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 762
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c196f8025fd03a650800000000000000
+      internalID: 6242848854930057500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 732
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80026b2e31522d210800000000000000
+      internalID: 1356187205130133512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 722
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada3f67a500691620800000000000000
+      internalID: 2745331025259215578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 718
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f3ef628a07a5200800000000000000
+      internalID: 169571803490828071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 712
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5fc5081b9e6b450800000000000000
+      internalID: 6104323293519345147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 692
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f49ba3badfe76440800000000000000
+      internalID: 4929172039776572658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 590
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cc0e7ca3d068b70800000000000000
+      internalID: 8900816259657026560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 584
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bee67bfaf6942320800000000000000
+      internalID: 2532314895193927349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 578
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfba80a09406b3710800000000000000
+      internalID: 1674037553315490813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_20
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 542
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66f6699de9e6eb10800000000000000
+      internalID: 2010551490357687914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_21
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 584
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5a574a10bd8ecd0800000000000000
+      internalID: -2528530390667909712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_22
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 590
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f682c8695ff213c60800000000000000
+      internalID: 7796065161794300015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_23
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 536
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560830746c2dcac20800000000000000
+      internalID: 3219179582699831397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 556
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff189090f518c2f40800000000000000
+      internalID: 5705077073145070079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 560
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae113f1fd9f52d80800000000000000
+      internalID: -8275934003527082331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_26
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 551
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce54d57e2130b480800000000000000
+      internalID: -8885547989186879806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 506
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d5e30043b4f5e40800000000000000
+      internalID: 5647315144460361036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_28
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 532
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f00a0ad681daeb0800000000000000
+      internalID: -4707079176406954220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 510
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1d5796ae34d91e0800000000000000
+      internalID: -2189519169761455637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_30
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 515
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf6e0e53ac54eb10800000000000000
+      internalID: 2009833190441512903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 496
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2f35cc327466800800000000000000
+      internalID: 605249419005391608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_32
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 514
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5afda996b084a90800000000000000
+      internalID: -7329595845347662432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fbcbf51f6862a10800000000000000
+      internalID: 1884341865352576811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 488
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818ce578d329b5950800000000000000
+      internalID: 6438900885218052120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_35
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 464
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c499cfd8cda7d8590800000000000000
+      internalID: -7670339502648551092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_36
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 404
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff906d7aaef4177d0800000000000000
+      internalID: -2922466813929977345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f1845c8ac3d8a40800000000000000
+      internalID: 5372016626084880196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_38
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 321
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ada7e90a4c669190800000000000000
+      internalID: -7956052626453844573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 304
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9c013ef7d88c040800000000000000
+      internalID: 4668136594179410371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_40
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c888bcfcb0ac962e0800000000000000
+      internalID: -2131950796503545716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_41
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 237
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94b9fa8fbde36bc0800000000000000
+      internalID: -3790925054389668710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 105
+        width: 242
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ece730fb989f10800000000000000
+      internalID: 2276741067668513602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_43
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033ce620872975770800000000000000
+      internalID: 8599503057621795632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 15
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566da39fa18b34190800000000000000
+      internalID: -7979331688780343707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_45
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6bd37c2f7578b40800000000000000
+      internalID: 5442415374936946404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_46
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 231
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0bbf90906599240800000000000000
+      internalID: 4798961474762158297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_47
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418e96e032379f740800000000000000
+      internalID: 5186303040296708116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_48
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 231
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a9baf2489e02d90800000000000000
+      internalID: -7124437856555394541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 215
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e230cd827938e3fa0800000000000000
+      internalID: -5819068983267294418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_50
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 202
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad5d7873901ee30800000000000000
+      internalID: 4530912834218220143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_51
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 199
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34da412e904989110800000000000000
+      internalID: 1267926065273417027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_52
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 17
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6118d1a9cf8d6f8a0800000000000000
+      internalID: -6271586851637853930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_53
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 14
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c46e72c6a2caba0800000000000000
+      internalID: -6076435153215402915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_54
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 21
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b0f75a327148e60800000000000000
+      internalID: 7963515482965740441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_55
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 17
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99093afbb230af960800000000000000
+      internalID: 7636419604593741977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorApagada_56
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d3246dd04148280800000000000000
+      internalID: -9042080102191317723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FlorApagada_0: -6473338041554491520
+      FlorApagada_1: -4992186592332181157
+      FlorApagada_10: -6729870524788862999
+      FlorApagada_11: 6242848854930057500
+      FlorApagada_12: 1356187205130133512
+      FlorApagada_13: 2745331025259215578
+      FlorApagada_14: 169571803490828071
+      FlorApagada_15: 6104323293519345147
+      FlorApagada_16: 4929172039776572658
+      FlorApagada_17: 8900816259657026560
+      FlorApagada_18: 2532314895193927349
+      FlorApagada_19: 1674037553315490813
+      FlorApagada_2: 1394511974431358925
+      FlorApagada_20: 2010551490357687914
+      FlorApagada_21: -2528530390667909712
+      FlorApagada_22: 7796065161794300015
+      FlorApagada_23: 3219179582699831397
+      FlorApagada_24: 5705077073145070079
+      FlorApagada_25: -8275934003527082331
+      FlorApagada_26: -8885547989186879806
+      FlorApagada_27: 5647315144460361036
+      FlorApagada_28: -4707079176406954220
+      FlorApagada_29: -2189519169761455637
+      FlorApagada_3: -1655470227852413588
+      FlorApagada_30: 2009833190441512903
+      FlorApagada_31: 605249419005391608
+      FlorApagada_32: -7329595845347662432
+      FlorApagada_33: 1884341865352576811
+      FlorApagada_34: 6438900885218052120
+      FlorApagada_35: -7670339502648551092
+      FlorApagada_36: -2922466813929977345
+      FlorApagada_37: 5372016626084880196
+      FlorApagada_38: -7956052626453844573
+      FlorApagada_39: 4668136594179410371
+      FlorApagada_4: 8106945895014261568
+      FlorApagada_40: -2131950796503545716
+      FlorApagada_41: -3790925054389668710
+      FlorApagada_42: 2276741067668513602
+      FlorApagada_43: 8599503057621795632
+      FlorApagada_44: -7979331688780343707
+      FlorApagada_45: 5442415374936946404
+      FlorApagada_46: 4798961474762158297
+      FlorApagada_47: 5186303040296708116
+      FlorApagada_48: -7124437856555394541
+      FlorApagada_49: -5819068983267294418
+      FlorApagada_5: 5175786868511879222
+      FlorApagada_50: 4530912834218220143
+      FlorApagada_51: 1267926065273417027
+      FlorApagada_52: -6271586851637853930
+      FlorApagada_53: -6076435153215402915
+      FlorApagada_54: 7963515482965740441
+      FlorApagada_55: 7636419604593741977
+      FlorApagada_56: -9042080102191317723
+      FlorApagada_6: -1044159396155347616
+      FlorApagada_7: -2481274227296759858
+      FlorApagada_8: -7044681697471136565
+      FlorApagada_9: -850766762699684705
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

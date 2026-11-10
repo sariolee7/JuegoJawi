@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: c2f8b1c108d432f459d557877b032855
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -665653509302038408
+    second: FlorEncendida_0
+  - first:
+      213: 3022046141345604652
+    second: FlorEncendida_1
+  - first:
+      213: -8307356400788648286
+    second: FlorEncendida_2
+  - first:
+      213: 7718447366286313323
+    second: FlorEncendida_3
+  - first:
+      213: -7724917687549400443
+    second: FlorEncendida_4
+  - first:
+      213: -1999260289972982603
+    second: FlorEncendida_5
+  - first:
+      213: -6491520500852530870
+    second: FlorEncendida_6
+  - first:
+      213: -5550027792234040053
+    second: FlorEncendida_7
+  - first:
+      213: 7328396899429600448
+    second: FlorEncendida_8
+  - first:
+      213: 6030519553926020451
+    second: FlorEncendida_9
+  - first:
+      213: -3343585808823380656
+    second: FlorEncendida_10
+  - first:
+      213: 3074198318264627788
+    second: FlorEncendida_11
+  - first:
+      213: 7376781493920023385
+    second: FlorEncendida_12
+  - first:
+      213: -7908940009418044969
+    second: FlorEncendida_13
+  - first:
+      213: 670110310386505044
+    second: FlorEncendida_14
+  - first:
+      213: -2180680958651825302
+    second: FlorEncendida_15
+  - first:
+      213: 1936683596815085793
+    second: FlorEncendida_16
+  - first:
+      213: 5840961406372768286
+    second: FlorEncendida_17
+  - first:
+      213: 8967441062410394956
+    second: FlorEncendida_18
+  - first:
+      213: -579610497607340968
+    second: FlorEncendida_19
+  - first:
+      213: -1183045699182232601
+    second: FlorEncendida_20
+  - first:
+      213: 7675865644330635859
+    second: FlorEncendida_21
+  - first:
+      213: -5875916629164338151
+    second: FlorEncendida_22
+  - first:
+      213: -5083337700062691327
+    second: FlorEncendida_23
+  - first:
+      213: -4544867058687562327
+    second: FlorEncendida_24
+  - first:
+      213: 4705951884042657645
+    second: FlorEncendida_25
+  - first:
+      213: 2873613674144461692
+    second: FlorEncendida_26
+  - first:
+      213: 3531080146482118511
+    second: FlorEncendida_27
+  - first:
+      213: -2259776611759175712
+    second: FlorEncendida_28
+  - first:
+      213: -3979661206254224700
+    second: FlorEncendida_29
+  - first:
+      213: -2126135459091416236
+    second: FlorEncendida_30
+  - first:
+      213: -4454357723139405164
+    second: FlorEncendida_31
+  - first:
+      213: -6915554335331419857
+    second: FlorEncendida_32
+  - first:
+      213: 6098524936008601636
+    second: FlorEncendida_33
+  - first:
+      213: -4394113960859972142
+    second: FlorEncendida_34
+  - first:
+      213: -6640953559508504049
+    second: FlorEncendida_35
+  - first:
+      213: 4544976665975103640
+    second: FlorEncendida_36
+  - first:
+      213: 4040458172548995440
+    second: FlorEncendida_37
+  - first:
+      213: -7939666135354472057
+    second: FlorEncendida_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlorEncendida_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1387
+        height: 1122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8705f8af8af13c6f0800000000000000
+      internalID: -665653509302038408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_1
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1113
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24aebd34f670f920800000000000000
+      internalID: 3022046141345604652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_2
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1109
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aecc642e5756bc80800000000000000
+      internalID: -8307356400788648286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b678b0d4cfe6d1b60800000000000000
+      internalID: 7718447366286313323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 953
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a6c72aa449bc490800000000000000
+      internalID: -7724917687549400443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_5
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 935
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcad9adb533144e0800000000000000
+      internalID: -1999260289972982603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_6
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 919
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41e48e7f7c79e5a0800000000000000
+      internalID: -6491520500852530870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_7
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 905
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b053856d0275af2b0800000000000000
+      internalID: -5550027792234040053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_8
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 875
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc439b0722b3b560800000000000000
+      internalID: 7328396899429600448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_9
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 827
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dbece4595b0b350800000000000000
+      internalID: 6030519553926020451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_10
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 824
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0559b050c623991d0800000000000000
+      internalID: -3343585808823380656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_11
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 767
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c423449251fb9aa20800000000000000
+      internalID: 3074198318264627788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 744
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95347c25fa79f5660800000000000000
+      internalID: 7376781493920023385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 720
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d943ccf6fccd3290800000000000000
+      internalID: -7908940009418044969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 676
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4551ae2e6c5bc4900800000000000000
+      internalID: 670110310386505044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_15
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 678
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63891bc83aacb1e0800000000000000
+      internalID: -2180680958651825302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_16
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 678
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e03d76687b70ea10800000000000000
+      internalID: 1936683596815085793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_17
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 664
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a6d9dc3734f0150800000000000000
+      internalID: 5840961406372768286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d193d7220c27c70800000000000000
+      internalID: 8967441062410394956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 546
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ce606c25fc4f7f0800000000000000
+      internalID: -579610497607340968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 532
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb7033643af49fe0800000000000000
+      internalID: -1183045699182232601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 540
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352d3f19227268a60800000000000000
+      internalID: 7675865644330635859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 514
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91459dc25fc847ea0800000000000000
+      internalID: -5875916629164338151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_23
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 532
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10089626b4b5479b0800000000000000
+      internalID: -5083337700062691327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 512
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adad876d736de0c0800000000000000
+      internalID: -4544867058687562327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_25
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 496
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f517a2e46ee4140800000000000000
+      internalID: 4705951884042657645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_26
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 491
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73f51d596021e720800000000000000
+      internalID: 2873613674144461692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 419
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f308c4faae00130800000000000000
+      internalID: 3531080146482118511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 431
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7cb58f429a3a0e0800000000000000
+      internalID: -2259776611759175712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 370
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca70d2d73765c8c0800000000000000
+      internalID: -3979661206254224700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 319
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b7e7090137e72e0800000000000000
+      internalID: -2126135459091416236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 307
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a02c14041fe22c0800000000000000
+      internalID: -4454357723139405164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_32
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 306
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2978a1e8f30700a0800000000000000
+      internalID: -6915554335331419857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 293
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42097a03e1052a450800000000000000
+      internalID: 6098524936008601636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd4b5432a8f403c0800000000000000
+      internalID: -4394113960859972142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 161
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0231a34ce796d3a0800000000000000
+      internalID: -6640953559508504049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_36
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 153
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890a2e78230031f30800000000000000
+      internalID: 4544976665975103640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 103
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0795b98fc47921830800000000000000
+      internalID: 4040458172548995440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlorEncendida_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 103
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7898ffe47b3a0d190800000000000000
+      internalID: -7939666135354472057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FlorEncendida_0: -665653509302038408
+      FlorEncendida_1: 3022046141345604652
+      FlorEncendida_10: -3343585808823380656
+      FlorEncendida_11: 3074198318264627788
+      FlorEncendida_12: 7376781493920023385
+      FlorEncendida_13: -7908940009418044969
+      FlorEncendida_14: 670110310386505044
+      FlorEncendida_15: -2180680958651825302
+      FlorEncendida_16: 1936683596815085793
+      FlorEncendida_17: 5840961406372768286
+      FlorEncendida_18: 8967441062410394956
+      FlorEncendida_19: -579610497607340968
+      FlorEncendida_2: -8307356400788648286
+      FlorEncendida_20: -1183045699182232601
+      FlorEncendida_21: 7675865644330635859
+      FlorEncendida_22: -5875916629164338151
+      FlorEncendida_23: -5083337700062691327
+      FlorEncendida_24: -4544867058687562327
+      FlorEncendida_25: 4705951884042657645
+      FlorEncendida_26: 2873613674144461692
+      FlorEncendida_27: 3531080146482118511
+      FlorEncendida_28: -2259776611759175712
+      FlorEncendida_29: -3979661206254224700
+      FlorEncendida_3: 7718447366286313323
+      FlorEncendida_30: -2126135459091416236
+      FlorEncendida_31: -4454357723139405164
+      FlorEncendida_32: -6915554335331419857
+      FlorEncendida_33: 6098524936008601636
+      FlorEncendida_34: -4394113960859972142
+      FlorEncendida_35: -6640953559508504049
+      FlorEncendida_36: 4544976665975103640
+      FlorEncendida_37: 4040458172548995440
+      FlorEncendida_38: -7939666135354472057
+      FlorEncendida_4: -7724917687549400443
+      FlorEncendida_5: -1999260289972982603
+      FlorEncendida_6: -6491520500852530870
+      FlorEncendida_7: -5550027792234040053
+      FlorEncendida_8: 7328396899429600448
+      FlorEncendida_9: 6030519553926020451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
