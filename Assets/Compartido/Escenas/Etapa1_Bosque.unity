@@ -2327,6 +2327,7 @@ GameObject:
   - component: {fileID: 252979022}
   - component: {fileID: 252979021}
   - component: {fileID: 252979025}
+  - component: {fileID: 252979026}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2440,6 +2441,19 @@ MonoBehaviour:
   tunjoRelleno: {fileID: 1839953575}
   textoContador: {fileID: 131469756}
   panelGameOver: {fileID: 0}
+--- !u!114 &252979026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252979020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f3d705980496f489696a82e1b9e907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BotonOpciones
+  panelOpciones: {fileID: 1814409351}
 --- !u!1 &268271791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3192,7 +3206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 485984908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 252979026}
+        m_TargetAssemblyTypeName: BotonOpciones, Assembly-CSharp
+        m_MethodName: Abrir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &485984908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6417,8 +6443,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -900, y: -260}
+  m_AnchoredPosition: {x: 0, y: -19.236206}
+  m_SizeDelta: {x: -900, y: -298.4725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352084264
 MonoBehaviour:
@@ -6440,7 +6466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 762917452961081382, guid: 5eb4660c15c3700418445e99376dbb6d, type: 3}
   m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11468,7 +11494,7 @@ MonoBehaviour:
   panelPausa: {fileID: 1814409351}
   primerBoton: {fileID: 192082533}
   escenaMenu: Menu
-  ocultarMouseAlJugar: 1
+  ocultarMouseAlJugar: 0
   ocultarAlPausar: []
 --- !u!1 &1957849136
 GameObject:
