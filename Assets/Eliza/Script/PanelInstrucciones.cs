@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
@@ -24,7 +25,11 @@ public class PanelInstrucciones : MonoBehaviour
         controles = FindAnyObjectByType<ControlesJawi>();
         pausa = FindAnyObjectByType<MenuPausa>();
 
-        if (botonSiguiente != null) botonSiguiente.onClick.AddListener(Siguiente);
+        if (botonSiguiente != null)
+        {
+            botonSiguiente.interactable = true;
+            botonSiguiente.onClick.AddListener(Siguiente);
+        }
 
         Mostrar();
     }
@@ -33,6 +38,9 @@ public class PanelInstrucciones : MonoBehaviour
     {
         Mostrando = true;
         panel.SetActive(true);
+        panel.transform.SetAsLastSibling();
+        Canvas canvas = panel.GetComponentInParent<Canvas>();
+        if (canvas != null && canvas.GetComponent<GraphicRaycaster>() == null) canvas.gameObject.AddComponent<GraphicRaycaster>();
         Time.timeScale = 0f;
         if (controles != null) controles.enabled = false;
         if (pausa != null) pausa.enabled = false;
@@ -43,8 +51,24 @@ public class PanelInstrucciones : MonoBehaviour
 
     void Update()
     {
-        if (!Mostrando || EventSystem.current == null) return;
-        if (EventSystem.current.currentSelectedGameObject == null) Seleccionar();
+        if (!Mostrando) return;
+
+        if (TeclaSiguiente())
+        {
+            Siguiente();
+            return;
+        }
+
+        if (EventSystem.current != null && EventSystem.current.currentSelectedGameObject == null) Seleccionar();
+    }
+
+    bool TeclaSiguiente()
+    {
+        Keyboard k = Keyboard.current;
+        if (k != null && (k.enterKey.wasPressedThisFrame || k.numpadEnterKey.wasPressedThisFrame || k.spaceKey.wasPressedThisFrame)) return true;
+        Gamepad g = Gamepad.current;
+        if (g != null && (g.buttonSouth.wasPressedThisFrame || g.startButton.wasPressedThisFrame)) return true;
+        return false;
     }
 
     void Seleccionar()
@@ -61,13 +85,19 @@ public class PanelInstrucciones : MonoBehaviour
         panel.SetActive(false);
         if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
         Time.timeScale = 1f;
-        StartCoroutine(Activar());
+        if (isActiveAndEnabled) StartCoroutine(Activar());
+        else ActivarAhora();
     }
 
     IEnumerator Activar()
     {
         yield return null;
         yield return null;
+        ActivarAhora();
+    }
+
+    void ActivarAhora()
+    {
         if (controles != null) controles.enabled = true;
         if (pausa != null) pausa.enabled = true;
     }
@@ -77,3 +107,4 @@ public class PanelInstrucciones : MonoBehaviour
         if (botonSiguiente != null) botonSiguiente.onClick.RemoveListener(Siguiente);
     }
 }
+

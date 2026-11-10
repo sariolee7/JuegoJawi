@@ -2972,10 +2972,7 @@ PrefabInstance:
       addedObject: {fileID: 1951999258}
     - targetCorrespondingSourceObject: {fileID: 2655321832628750105, guid: 7568435062c17a641bf7e3fd35db3a72, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1951999259}
-    - targetCorrespondingSourceObject: {fileID: 2655321832628750105, guid: 7568435062c17a641bf7e3fd35db3a72, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1951999260}
+      addedObject: {fileID: 1951999263}
   m_SourcePrefab: {fileID: 100100000, guid: 7568435062c17a641bf7e3fd35db3a72, type: 3}
 --- !u!1 &374127548
 GameObject:
@@ -6508,7 +6505,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951999260}
+      - m_Target: {fileID: 1951999263}
         m_TargetAssemblyTypeName: PantallaPerdiste, Assembly-CSharp
         m_MethodName: IrAlMenu
         m_Mode: 1
@@ -10970,7 +10967,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951999260}
+      - m_Target: {fileID: 1951999263}
         m_TargetAssemblyTypeName: PantallaPerdiste, Assembly-CSharp
         m_MethodName: Reiniciar
         m_Mode: 1
@@ -11432,7 +11429,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951999259}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PanelInstrucciones, Assembly-CSharp
         m_MethodName: Siguiente
         m_Mode: 1
@@ -12257,7 +12254,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1951999260}
+      - m_Target: {fileID: 1951999263}
         m_TargetAssemblyTypeName: PantallaPerdiste, Assembly-CSharp
         m_MethodName: Salir
         m_Mode: 1
@@ -12385,6 +12382,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903208355}
   m_CullTransparentMesh: 1
+--- !u!1 &1931260457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1931260459}
+  - component: {fileID: 1931260460}
+  m_Layer: 0
+  m_Name: Batalla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1931260459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931260457}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 961.12726, y: 307.1072, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1931260460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931260457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c3976b50af9b0488962ac07f198cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PanelInstrucciones
+  panel: {fileID: 1520013742}
+  botonSiguiente: {fileID: 1797546190}
 --- !u!1 &1939908572
 GameObject:
   m_ObjectHideFlags: 0
@@ -12542,21 +12585,7 @@ MonoBehaviour:
   escenaMenu: Menu
   ocultarMouseAlJugar: 0
   ocultarAlPausar: []
---- !u!114 &1951999259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951999255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c3976b50af9b0488962ac07f198cb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PanelInstrucciones
-  panel: {fileID: 1520013742}
-  botonSiguiente: {fileID: 1797546190}
---- !u!114 &1951999260
+--- !u!114 &1951999263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12799,7 +12828,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Siguiente '
+  m_text: 'Enter
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -19077,6 +19108,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1080997735}
+  - {fileID: 1931260459}
+  - {fileID: 361155513}
   - {fileID: 644250370}
   - {fileID: 2032360429}
   - {fileID: 724018194}
@@ -19088,7 +19121,6 @@ SceneRoots:
   - {fileID: 4494935099356680634}
   - {fileID: 4010400802941420778}
   - {fileID: 1392760086}
-  - {fileID: 361155513}
   - {fileID: 827814615}
   - {fileID: 374127550}
   - {fileID: 252979024}
