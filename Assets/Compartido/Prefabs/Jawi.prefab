@@ -215,11 +215,18 @@ MonoBehaviour:
   alcanceZarpazo: 0.9
   esperaZarpazo: 0.3
   colorZarpazo: {r: 1, g: 0, b: 0, a: 1}
+  colorearAlAtacar: 0
+  retrasoGolpe: 0.4
+  duracionMaximaZarpazo: 2
+  quietoAlAtacar: 1
   radioCanto: 3
-  duracionCanto: 10
+  duracionCanto: 3
   transicionCanto: 0.7
   esperaCanto: 1
   colorCanto: {r: 0.9582304, g: 1, b: 0, a: 1}
+  colorearAlCantar: 0
+  quietoAlCantar: 1
+  soloCantarCercaDeFlor: 1
 --- !u!114 &2567974517579334797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VidaJawi
   tiempoInvulnerable: 1
+  quietoMientrasParpadea: 0
 --- !u!95 &4585777055663262775
 Animator:
   serializedVersion: 7
@@ -269,4 +277,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimacionJawi
   estadoQuieto: Quieto
   estadoCaminar: Caminar
+  estadoCanto: Canto
+  estadoZarpazo: Zarpazo
+  estadoSaltar: Saltar
+  margenAire: 0.08
   velocidadMinima: 0.1

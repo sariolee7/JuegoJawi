@@ -3,7 +3,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Roca : MonoBehaviour, IGolpeable
 {
-    public float gravedad = 2f;
+    public float gravedadMinima = 1f;
+    public float gravedadMaxima = 3f;
+    public float empujeInicialMinimo = 0f;
+    public float empujeInicialMaximo = 2f;
     public float giro = 180f;
     public float duracion = 8f;
     public Color colorGolpeable = new Color(0.3f, 0.6f, 1f);
@@ -23,7 +26,8 @@ public class Roca : MonoBehaviour, IGolpeable
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = gravedad;
+        rb.gravityScale = Random.Range(gravedadMinima, gravedadMaxima);
+        rb.linearVelocity = Vector2.down * Random.Range(empujeInicialMinimo, empujeInicialMaximo);
         rb.angularVelocity = Random.Range(-giro, giro);
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
 
@@ -41,6 +45,14 @@ public class Roca : MonoBehaviour, IGolpeable
         }
 
         Destroy(gameObject, duracion);
+    }
+
+    public void CambiarGravedad(float valor)
+    {
+        if (rb == null) rb = GetComponent<Rigidbody2D>();
+        if (devuelta) return;
+        rb.gravityScale = valor;
+        rb.linearVelocity = Vector2.zero;
     }
 
     bool SePuedeGolpear => !devuelta && energia != null && energia.Energia >= energiaPorGolpe - 0.001f;
@@ -142,6 +154,4 @@ public class Roca : MonoBehaviour, IGolpeable
         Destroy(gameObject);
     }
 }
-
-
 
