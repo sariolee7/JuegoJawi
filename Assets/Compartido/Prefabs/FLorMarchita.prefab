@@ -260,3 +260,4 @@ MonoBehaviour:
   triggerCambio: Cambiar
   soloUnaVez: 1
   energiaQueDa: 0.25
+  desaparecerDespues: 2
