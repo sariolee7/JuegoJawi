@@ -1209,6 +1209,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &466167565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4310422650077004820, guid: 76195f83a80a43348b460900b98c5eb4, type: 3}
+  m_PrefabInstance: {fileID: 756982377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &466167576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466167565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff69834da6672d4f8e47c28aefc553e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnergiaJawi
+  barraRelleno: {fileID: 0}
+  velocidadBarra: 1.5
+  sonidoEnergia: {fileID: 0}
 --- !u!1 &516782755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,6 +2035,8 @@ GameObject:
   - component: {fileID: 712477339}
   - component: {fileID: 712477338}
   - component: {fileID: 712477337}
+  - component: {fileID: 712477340}
+  - component: {fileID: 712477341}
   m_Layer: 0
   m_Name: minero-quieto-6frames_0
   m_TagString: Untagged
@@ -2091,7 +2113,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8779708806272084110, guid: 839ae83c3a7361b4d99b3e7f871a3122, type: 3}
   m_Color: {r: 0.6415094, g: 0.5547644, b: 0.5547644, a: 1}
@@ -2118,6 +2140,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712477340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712477336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ef0d283a2aaa64dbdefb28906e810e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Minero
+  piedrasParaVencer: 5
+  triggerDano: Dano
+  triggerMorir: Morir
+  tiempoAntesDeDesaparecer: 1
+  sonidoGolpe: {fileID: 0}
+  sonidoVencido: {fileID: 0}
+  alVencer:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!61 &712477341
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712477336}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.027071238, y: 3.373814}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 4.7209954, y: 7.0399995}
+    newSize: {x: 4.7209954, y: 7.0399995}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.9775982, y: 5.751401}
+  m_EdgeRadius: 0
 --- !u!1 &712834049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2702,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4310422650077004820, guid: 76195f83a80a43348b460900b98c5eb4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 466167576}
   m_SourcePrefab: {fileID: 100100000, guid: 76195f83a80a43348b460900b98c5eb4, type: 3}
 --- !u!1 &835015452
 GameObject:
@@ -3377,7 +3469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46750b0b8837e0542b7c5d05cb08da70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AparecerFlores
-  florPrefab: {fileID: 6621229508700615202, guid: 3dcbe269d78aafb4ebe3f58361a2e9f8, type: 3}
+  florPrefab: {fileID: 6621229508700615202, guid: 45dc4fc0f6e2c9341ae186bcb2b85126, type: 3}
   suelos:
   - {fileID: 1886572681}
   - {fileID: 624777960}
