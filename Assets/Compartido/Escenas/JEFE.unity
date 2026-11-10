@@ -1635,7 +1635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnergiaJawi
   barraRelleno: {fileID: 0}
-  velocidadBarra: 1.5
+  velocidadBarra: 1
   sonidoEnergia: {fileID: 0}
 --- !u!114 &466167587
 MonoBehaviour:
