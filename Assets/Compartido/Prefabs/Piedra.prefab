@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 293f763558d645e4fbd61a1f58535779, type: 3}
   m_Color: {r: 0.46540874, g: 0.30012676, b: 0.016098991, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,7 +129,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1.18
 --- !u!50 &-8571694419909646325
 Rigidbody2D:
   serializedVersion: 5
@@ -169,7 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da77b5f335065cf4c9c582e8e1a729f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Roca
-  gravedad: 2
+  gravedadMinima: 0.5
+  gravedadMaxima: 1
+  empujeInicialMinimo: 0
+  empujeInicialMaximo: 2
   giro: 180
   duracion: 8
   colorGolpeable: {r: 0.3, g: 0.6, b: 1, a: 1}

@@ -11,9 +11,15 @@ public class LluviaRocas : MonoBehaviour
     public Transform limiteIzquierdo;
     public Transform limiteDerecho;
     public Minero minero;
+    public bool velocidadProgresiva = true;
+    public float gravedadInicial = 0.3f;
+    public float aumentoGravedad = 0.2f;
+    public float cadaCuantosSegundos = 5f;
+    public float gravedadMaxima = 4f;
 
     Transform jawi;
     bool hayMinero;
+    float inicio;
     float siguiente;
 
     void Start()
@@ -21,6 +27,7 @@ public class LluviaRocas : MonoBehaviour
         VidaJawi vida = FindFirstObjectByType<VidaJawi>();
         if (vida != null) jawi = vida.transform;
         hayMinero = minero != null;
+        inicio = Time.time;
         siguiente = Time.time + Random.Range(tiempoMinimo, tiempoMaximo);
     }
 
@@ -38,7 +45,19 @@ public class LluviaRocas : MonoBehaviour
         if (limiteDerecho != null) x = Mathf.Min(x, limiteDerecho.position.x);
 
         Vector3 pos = new Vector3(x, jawi.position.y + alturaSobreJawi, 0f);
-        Instantiate(rocaPrefab, pos, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
+        GameObject nueva = Instantiate(rocaPrefab, pos, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
+
+        if (velocidadProgresiva)
+        {
+            Roca roca = nueva.GetComponent<Roca>();
+            if (roca != null) roca.CambiarGravedad(GravedadActual());
+        }
+    }
+
+    public float GravedadActual()
+    {
+        int pasos = Mathf.FloorToInt((Time.time - inicio) / Mathf.Max(0.1f, cadaCuantosSegundos));
+        return Mathf.Min(gravedadInicial + aumentoGravedad * pasos, gravedadMaxima);
     }
 
     bool JawiEnZona()
@@ -49,4 +68,5 @@ public class LluviaRocas : MonoBehaviour
         return true;
     }
 }
+
 
